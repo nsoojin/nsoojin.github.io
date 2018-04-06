@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          <li>
+            {% include icon-linkedin.html username=site.twitter_username %}
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2"></div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="text/javascript">
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
