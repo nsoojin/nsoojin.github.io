@@ -74,7 +74,9 @@ var isHighlighted: Bool { get set }
 var isHidden: Bool { get set } 
 ```
 
-❗주의❗is로 시작하는 변수명을 짓다가 범하는 치명적인 실수가 바로 **is + 동사원형** 을 쓰는 것이다. 
+❗주의❗is로 시작하는 변수명을 짓다가 범하는 흔한 실수가 바로 **is + 동사원형** 을 쓰는 것이다. 
+
+isAuthorize, isHide, isFind 등등.
 
 가령,
 
@@ -82,7 +84,7 @@ var isHidden: Bool { get set }
 var isEdit: Bool //gg
 ```
 
-뜻이 명확하지 않아 곧바로 해석이 쉽지 않다. 😧 **더 잘 할 수 있다.**
+edit이라는 단어가 명사로 쓰일수도 있어서 해석의 여지는 있지만 뜻이 명확하지 않아 일반적으로는 곧바로 해석하기 쉽지 않다. 😧 **더 잘 할 수 있다.**
 
 아래와 같이 적절하게 바꿔주면 해석이 더 쉽고 빠르다.
 
