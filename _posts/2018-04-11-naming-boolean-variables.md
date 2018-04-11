@@ -94,7 +94,7 @@ var canEdit: Bool //편집할 수 있는가? -> 다음 '조동사 용법' 섹션
 
 ### 4월 11일 추가
 
-닷넷 프레임워크에 [DataRowView.IsEdit](https://msdn.microsoft.com/en-us/library/system.data.datarowview.isedit(v=vs.110).aspx)이라는 불리언 변수가 있다는 제보를 받았다. 문서를 보면 'row가 edit mode인지'를 나타내는 불리언인데 닷넷 개발자가 아닌 다른 개발자가 edit mode 라는 것을 모르는 상태에서 문서를 읽어보지 않고는 한번에 이해할 수 없었을 것이다. 하지만 만약 IsEdit이 닷넷 프레임워크에서 자주 쓰이는 변수명이자, edit이 edit mode를 의미한다는 것이 플랫폼 내에서 통용되는 표현(컨벤션)이라면 괜찮을 수 있다. 변수명에 신경쓰는 이유 자체가 다른 개발자가 내 코드를 쉽고 빠르게 이해하게 하려는 것이기에.
+닷넷 프레임워크에 [DataRowView.IsEdit](https://msdn.microsoft.com/en-us/library/system.data.datarowview.isedit(v=vs.110).aspx)이라는 불리언 변수가 있다는 제보를 받았다. 문서를 보면 'row가 edit mode인지'를 나타내는 불리언인데 닷넷 개발자가 아닌 다른 개발자가 edit mode 라는 것을 모르는 상태에서 문서를 읽어보지 않고는 한번에 이해할 수 없었을 것이다. 하지만 만약 IsEdit이 닷넷 프레임워크에서 자주 쓰이는 변수명이자, edit이 edit mode를 의미한다는 것이 컨벤션이라면 괜찮을 수 있다. 변수명에 신경쓰는 이유 자체가 다른 개발자(또는 내일의 나)가 내 코드를 쉽고 빠르게 이해하게 하려는 것이기에.
 
 
 ## 조동사 용법
