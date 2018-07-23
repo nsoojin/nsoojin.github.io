@@ -221,7 +221,3 @@ let region3 = region1.overlapping(region2) //region1과 region2가 겹치는 부
 	- **3인칭 단수**
 
 끝.
-
-
-
-

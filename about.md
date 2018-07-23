@@ -20,7 +20,7 @@ meta: {}
 <div id="rightCol">
   <p>I'm a mobile developer aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
 
-  <p><b>Naver Labs</b></p>
+  <p><b>NAVER LABS</b></p>
 
   <p>I work on iOS apps at Naver Labs. On a mission to better people's lives through artificial intelligence. We're <a href="http://recruit.naverlabs.com/labs/recruitMain?recruitId=20001178" target="_blank">hiring</a>!</p>
 
