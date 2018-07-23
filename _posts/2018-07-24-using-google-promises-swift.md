@@ -52,11 +52,11 @@ extension CNContact {
 
 이런 에러 메시지를 보여줄 것인가?
 
-<img src="/assets/posts/unhelpful-error-message.png" />
+<img src="/assets/posts/unhelpful-error-message.jpeg" />
 
 아니면 실질적으로 유저에게 도움이 되는 메시지를 보여줄 것인가?
 
-<img src="/assets/posts/meaningful-error-message.png" />
+<img src="/assets/posts/meaningful-error-message.jpeg" />
 
 ### Minimizing dependencies
 
