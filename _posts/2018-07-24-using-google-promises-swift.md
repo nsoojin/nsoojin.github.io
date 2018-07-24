@@ -26,7 +26,7 @@ Promises를 보자마자 써봐야겠다고 느꼈던 이유는 그 전부터 �
 
 ### Chaining functions w/o side effects
 
-[2016년 D2 iOS 오픈세미나](http://d2.naver.com/news/9814448)에서 [발표](https://www.slideshare.net/soojinro9/d2-63435589)했던 걸 계기로 파파고와 웨일 브라우저를 개발한 팀의 리더님을 알게되어 그 팀에서 단기로 프로젝트를 했던 적이 있다. 멘토님에게서 배운 여러가지 중 가장 기억에 남고 지금도 코딩하면서 매일 실천하기 위해 노력하는 것은 **함수는 10줄을 넘기지 않는다**이다. 자극적으로 들릴 수도 있지만 본질적으로 함수는 하나의 작업만 하도록 짜라는 강령으로 이해했다. 10줄 이내로 짜려는 노력을 하다보면 계속해서 함수는 작은 기능 단위로 쪼개지고 나는 객체 간의 관계를 설계하는데 고민하는 시간이 늘었다. 더 나아가 side effect가 없는 함수들을 체이닝 하면 코드가 쉽게 읽히고 수정이 용이해진다는 장점이 있다. 특히 스위프트의 `map`, `flatMap`, `compactMap`, `filter` 등의 메서드와 함께 쓸 때 빛을 발한다. Promises에서는 `then`, `always`, `validate` 등으로 함수를 체이닝할 수 있다.
+[2016년 D2 iOS 오픈세미나](http://d2.naver.com/news/9814448)에서 [발표](https://www.slideshare.net/soojinro9/d2-63435589)했던 걸 계기로 파파고와 웨일 브라우저를 개발한 팀의 리더님을 알게되어 그 팀에서 단기로 프로젝트를 했던 적이 있다. 멘토님에게서 배운 여러가지 중 가장 기억에 남고 지금도 코딩하면서 매일 실천하기 위해 노력하는 것은 **함수는 10줄을 넘기지 않는다**이다. 자극적으로 들릴 수도 있지만 본질적으로 함수는 하나의 작업만 하도록 짜라는 강령으로 이해했다. 10줄 이내로 짜려는 노력을 하다보면 계속해서 함수는 작은 기능 단위로 쪼개지고 나는 객체 간의 관계를 설계하는데 고민하는 시간이 늘게 된다. 더 나아가 side effect가 없는 함수들을 체이닝 하면 코드가 쉽게 읽히고 수정이 용이해진다는 장점이 있다. 특히 스위프트의 `map`, `flatMap`, `compactMap`, `filter` 등의 메서드와 함께 쓸 때 빛을 발한다. Promises에서는 `then`, `always`, `validate` 등으로 함수를 체이닝할 수 있다.
 
 예시:
 ```swift
@@ -93,9 +93,9 @@ data(from: url).then { data in
 
 그동안 사용해보면서 시행착오를 거쳐 습득한 몇 가지 유즈케이스 및 주의사항을 정리했다.
 
-### 함수형 프로그래밍의 currying 기법
+### Partial Application 기법
 
-Promises 파이프라인의 가독성과 함수 재활용성을 높이기 위해 [currying](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) 기법을 활용하는 방법을 소개한다. 
+Promises 파이프라인의 가독성과 함수 재활용성을 높이기 위해 [partial application](http://paul-samuels.com/blog/2018/01/31/swift-partially-applied-functions/) 기법을 활용하는 방법을 소개한다. `map`, `forEach` 등의 higher order function들을 사용하고 있었다면 아마 써본적이 있을 확률이 높다.
 
 API 서버에 로그인하여 access token을 받아오는 작업은 로그인 기반의 서비스에서 빠질 수 없는 작업이다. 가상의 로그인 단계는 다음과 같다. `회원가입` 👉 `로그인` 👉 `엑세스 토큰 획득`. 하지만 이미 회원가입이 되어 있는 유저라면 회원가입에 실패하게 된다. Promises에서는 실패했을때 `recover`를 사용해서 실패를 복구할 기회가 있다. 그래서 만약 회원가입 실패의 원인이 duplicate user라면 로그인을 시도한다.
 
@@ -113,7 +113,7 @@ func retrieveAccessToken(with naverToken: String) -> Promise<MyAccessToken> {
 func requestSignUp(with naverToken: String) -> Promise<SignUpResponse> { ... }
 func requestSignIn(with naverToken: String) -> Promise<MyAccessToken> { ... }
 
-//curried functions
+//partially applied functions
 func signIn(with naverToken: String) -> (SignUpResponse) -> Promise<MyAccessToken> {
   return { _ in requestSignIn(with: naverToken) }
 }
@@ -130,7 +130,7 @@ func onError(with naverToken:String) -> (Error) -> Promise<MyAccessToken> {
 }
 ```
 
-`signIn(with:)`과 `onError(with:)`는 각각 SignUpResponse와 Error 파라미터를 **나중에 전달 받도록** [currying](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift)된 함수이다. 이런 식으로 체이닝을 할 때 클로져를 바로 쓰지 않고 함수를 currying하여 기존의 API 관련 함수들을 재활용함과 동시에 비동기 작업 파이프라인을 훨씬 읽기 쉽게 만들었다.
+`signIn(with:)`과 `onError(with:)`는 각각 SignUpResponse와 Error 파라미터를 나중에 전달 받도록 짠 partially applied functions이다. 이런 식으로 체이닝을 할 때 클로져를 바로 쓰지 않고 partial application을 활용하여 기존의 API 관련 함수들을 재활용함과 동시에 비동기 작업 파이프라인을 훨씬 읽기 쉽게 만들었다.
 
 
 ### 단순 체이닝으로 불가능한 작업은 `await`으로
