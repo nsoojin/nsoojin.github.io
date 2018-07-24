@@ -180,7 +180,7 @@ thumbnailData(from: url).then { result in
 
 ## Wrap Up
 
-iOS 개발을 하면서 한번이라도 completion handler 방식의 비동기 프로그래밍에 아쉬움이나 답답함을 느껴본적 있다면 한번 시도해보길 추천한다. [google/promises](https://github.com/google/promises)는 최소한의 코드 변형으로 나의 비동기 코드가 유연해지고 가독성이 높아지고, 적은 학습 비용으로 여러가지 시도해볼 수 있는 확장성 있는 좋은 프레임워크인 것 같다. 
+iOS 개발을 하면서 한번이라도 completion handler 방식의 비동기 프로그래밍에 아쉬움을 느껴봤거나 Rx는 나의 필요 이상으로 너무 방대하다는 생각이 든 적이 있다면 한번 시도해보길 추천한다. [google/promises](https://github.com/google/promises)는 최소한의 코드 변형으로 비동기 코드를 유연하게 하고, 가독성을 높이고, 적은 학습 비용으로 여러가지 시도해볼 수 있는 확장성 있는 좋은 프레임워크인 것 같다. 
 
 
 
