@@ -17,7 +17,7 @@ meta: {}
 
 프로그래머의 가장 어려운 업무가 이름 짓기라는 설문 결과도 있듯이 변수에 적절한 이름을 지어주는 것은 어렵고 오래걸리는 일이다.
 
-<img src="/assets/posts/programmer-hardest-tasks.jpeg" />
+<img src="/assets/posts/programmer-hardest-tasks.jpeg" width="500" />
 
 영어가 모국어가 아닌 사람들에게는 더 어려울 수 밖에 없는데 특히 Bool 변수명을 올바르게 지으려면 몇가지 영문법을 숙지해야한다. Bool 변수명은 사소한 차이로도 의미가 많이 바뀌어 코드를 읽는 사람을 더 헷갈리게 할 수도 있기 때문에 조금이라도 더 명확하고 문법적으로 맞는 Bool 변수명을 짓는 것이 중요하다는 생각이다.
 
