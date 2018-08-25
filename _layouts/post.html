@@ -13,11 +13,13 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    {% include thanks-to.html %}
   </div>
 
   <p class="extra-info">
     {% if page.tags.size > 0 %}
-      Tags: {{ page.tags | join: ', ' }} &nbsp; 
+      Tags: {{ page.tags | join: ', ' }}
     {% endif %}
   </p>
 </article>

@@ -9,16 +9,20 @@ tags:
 status: publish
 type: post
 published: true
-draft: true
+thanks: 
+- 이승원
+- 김결
+- 강한용
+- 김영
 meta: {}
 ---
 
-1979년에 발간됐지만 여전히 프로그래밍 입문서로 유명한 *Structures and Interpretation of Computer Programs*라는 책의 도입부에 이런 말이 있다.
+1979년에 발간됐지만 여전히 프로그래밍 입문서로 유명한 *Structures and Interpretation of Computer Programs*의 도입부에 이런 말이 있다.
 >Programs should be written for people to read, and only incidentally for machines to execute.
 
 >(내맘대로 의역) 프로그램은 사람들에게 읽히기 위한 목적으로 만들어져야 하고, 우연히 컴퓨터가 실행할 수 있다면 더욱 좋다.
 
-신입 개발자로 입사했던 첫 해에 배운 것 중 하나를 꼽으라 한다면 코드를 쓰는 시간보다 코드를 읽는 시간이 더 많다는 것이다. 협업을 해보니 사용자의 입장 뿐 아니라 독자의 입장도 존재한다는 걸 깨달았다. 앱스토어에 올리는 앱만 결과물이 아니라 소스 코드도 결과물이라는 것? 그래서 UI/UX 측면에서는 유저에 공감을 하고, 코드로 구현할때는 나중에 이 코드를 읽을 사람(나 포함)에 공감을 하는 것이 프로그래머가 하는 일 인것 같다.
+신입으로 입사했던 첫 해, 협업을 해보니 코드를 쓰는 시간만큼이나 읽는 시간도 엄청 많다는 걸 알게 되었다. 동료(또는 나)의 코드가 잘 읽히면 내 작업 속도가 빨라졌고 흐름을 이해하기 어려운 코드에 부딪히면 느려졌다. 그래서 그때부터 독자의 입장도 고려해야겠다는 생각을 하게 됐다. 소프트웨어의 **사용자**와 **독자** 양 쪽 모두에 감정 이입하는게 프로그래머의 일인 것 같다.
 
 ## 영어와 Naming Conventions
 
@@ -29,7 +33,7 @@ meta: {}
 3. 타입별 Naming Conventions
 4. Bool 변수
 5. 중복 제거
-6. 스위프트의 getter 컨벤션
+6. 스위프트의 getter
 7. `fetch`, `request`, `perform` 비교
 
 
@@ -47,21 +51,24 @@ meta: {}
 ### ✏️ 동사 원형
 동사 원형은 크게 세 군데에 사용된다. 
 - 함수 및 메서드
-- 조동사 뒤에
-	- Bool 변수 (e.g. `canBecomeFirstResponder`)
-	- Life Cycle 관련 delegate 메서드 (e.g. `didFinish`, `willAppear`, `didComplete`)
+- Bool 변수 (조동사 + 동사원형)
+	- `canBecomeFirstResponder`, `shouldRefresh` 등
+- Life Cycle 관련 delegate 메서드 (조동사 + 동사원형) 
+	- `didFinish`, `willAppear`, `didComplete` 등
 
 ### ✏️ 과거 분사
 동사의 의미를 형용사로 쓰고 싶을 때는 과거 분사로 변형해서 사용해야 한다.
-- 명사 수식 (e.g. `requestedData`, `hiddenView`)
-- Bool 변수 (e.g. `isHidden`, `isSelected`)
+- 명사 수식
+	- `requestedData`, `hiddenView`
+- Bool 변수
+	- `isHidden`, `isSelected`
 
 ⚠️ 동사와 명사가 똑같이 생긴 단어도 있다   
 `request`(요청하다 혹은 요청), `start`(시작하다 혹은 시작점), `play`(재생하다 혹은 재생) 등
 
 ## #2 단수와 복수
 
-보통 인스턴스 하나는 단수형으로 이름 짓고 어레이 타입은 복수형으로 이름 지어준다. 복수형으로 이름 지어주는 것만으로 배열이라는 걸 알 수 있으니 특수한 경우가 아니라면 `List`나 `Array`를 뒤에 붙여줄 필요는 없지 않을까 싶다. 🤔
+보통 인스턴스 하나는 단수형으로 이름 짓고 어레이 타입은 복수형으로 이름 지어준다. 복수형으로 이름 지어주는 것만으로 배열이라는 걸 알 수 있으니 특수한 경우가 아니라면 `List`나 `Array`를 뒤에 붙여줄 필요는 없지 않을까 싶다.
 
 ```swift
 let album: Album
@@ -88,7 +95,7 @@ let albumArray: [Album]
 
 ## #3 타입별 Naming Conventions
 
-좀 전에 배열 타입의 변수에 굳이 `List`나 `Array`라는 타입을 명시하지 않는다고 했는데 Cocoa Touch 프레임워크 전반에 걸쳐 타입을 변수명에 명시해 주는 경우가 있다. `URL`, `UIImage`, `Date`, `Size`, `Data` 등 이다.
+좀 전에 배열 타입의 변수에 굳이 `List`나 `Array`라는 타입을 명시하지 않는다고 했는데 Cocoa Touch 프레임워크 전반에 걸쳐 타입을 변수명에 명시해 주는 경우가 있다. `URL`, `UIImage`, `Date`, `Size`, `Data`처럼 상대적으로 raw한 데이터 타입이라면 명시해 주는 것 같고, 새로 정의한 타입이라면 써줄 필요가 없을 것 같다.
 
 ```swift
 var fullSizeImageURL: URL?     //PHContentEditingInput
@@ -118,7 +125,7 @@ var uniqueID: String? { get }                 //AVMetadataGroup
 
 ## #4 Bool 변수
 
-Bool 변수명을 지을 때 알아두면 좋은 문법 몇 가지는 [Bool 변수 이름 제대로 짓기 위한 최소한의 영어 문법](https://soojin.ro/blog/naming-boolean-variables)에서 자세히 다뤘다. 컨벤션적인 측면에서도 고려할 것이 몇 가지 있다.
+Bool 변수명을 지을 때 알아두면 좋은 문법 몇 가지는 [Bool 변수 이름 제대로 짓기 위한 최소한의 영어 문법](https://soojin.ro/blog/naming-boolean-variables)에서 자세히 다뤘었고, 컨벤션적인 측면에서도 고려할 것이 몇 가지 있다.
 
 ### ✏️ `isSelected` vs `selected`
 
@@ -126,7 +133,7 @@ Bool 변수명을 지을 때 알아두면 좋은 문법 몇 가지는 [Bool 변�
 
 ### ✏️ `isEnabled` vs `isDisabled`
 
-Bool 타입의 경우 반대어를 써서 동일한 기능을 하는 이름을 만들 수 있다. 어떤게 더 낫냐 하는 것은 정답은 없을 것이지만 고민해볼 만한 기준은 있다. 조건문에 not 연산자를 붙이는 것 보다는 없는 것이 가독성에 조금 더 좋다. 따라서 로직이 추가되는 경우가 true가 되도록 하는 단어를 선택하면 어떨까. 또 다른 의견은 변수의 디폴트 값이 true가 되도록 하는 것이다. `UIView`의 경우 **'보여지는'** 상태가 디폴트임에도 `isHidden`을 쓰고 있어서 종종 뇌에 혼란이 올 때가 있다. 어쨌든 최종 판단은 프로그래머 본인의 몫이다.
+Bool 타입의 경우 반대어를 써서 동일한 기능을 하는 이름을 만들 수 있다. 어떤게 더 낫냐 하는 것은 정답은 없을 것이지만 고민해볼 만한 기준은 있다. 조건문에 not 연산자를 붙이는 것 보다는 없는 것이 가독성에 조금 더 좋다. 따라서 로직이 추가되는 경우가 true가 되도록 하는 단어를 선택하면 어떨까. 또 하나는 변수의 디폴트 값이 true가 되도록 하는 것이다. `UIView`의 경우 **'보여지는'** 상태가 디폴트임에도 `isHidden`을 쓰고 있어서 종종 뇌에 혼란이 올 때가 있다.
 
 ```swift
 if isEnabled { ... }
@@ -173,9 +180,9 @@ let image = imageManager.download(from: url)
 ```
 등등.
 
-## #6 스위프트의 getter 컨벤션
+## #6 스위프트의 getter
 
-스위프트에서 어떤 인스턴스를 리턴하는 함수나 메서드에는 `get`을 쓰지 않는다. `get` 없이 바로 타입 이름(명사)으로 시작하면 된다.
+스위프트에서 어떤 인스턴스를 리턴하는 함수나 메서드에 `get`을 쓰지 않는다. `get` 없이 바로 타입 이름(명사)으로 시작하면 된다.
 
 ```swift
 func date(from string: String) -> Date?
@@ -186,7 +193,7 @@ func track(withTrackID trackID: CMPersistentTrackID) -> AVAssetTrack?
 
 ## #7 `fetch`, `request`, `perform`
 
-프로그래머는 원하는 데이터를 어디선가 가져오는 함수를 자주 작성한다. 디스크에 저장되어있는 이미지, 리모트 서버에 있는 유저 db, 메모리 캐싱되어 있는 데이터 등등. 그럴때 위와 비슷한 동사들을 사용했을 것이다. 가져오다, 요청하다, 수행하다 등 사전적인 의미는 크게 다르지 않다. 하지만 iOS 프레임워크들을 찬찬히 읽어보니 쓰이는 경우가 명확히 구분되어 있었다. 
+우리는 데이터를 어디선가 가져오는 함수를 자주 작성하게 된다. 디스크에 저장되어있는 이미지, 리모트 서버에 있는 유저 db, 메모리 캐싱되어 있는 데이터 등등. 그럴때 위와 비슷한 동사들을 사용한다. 가져오다, 요청하다, 수행하다 등 사전적인 의미는 크게 다르지 않지만 iOS 프레임워크들을 찬찬히 읽어보니 쓰이는 경우가 명확히 구분되어 있었다. 
 
 ### ✏️ 결과를 바로 리턴하는 `fetch`
 
@@ -201,7 +208,7 @@ class func fetchAssets(in assetCollection: PHAssetCollection, options: PHFetchOp
 func fetch<T>(_ request: NSFetchRequest<T>) throws -> [T] where T : NSFetchRequestResult
 ```
 
-`fetch`를 쓴 함수는 결과물을 바로 리턴해준다. 오래 걸리지 않는 동기적 작업이라는 것이다. 결과가 없는 경우가 아니라면 다른 요인에 의해 요청이 실패할 수는 없는 종류의 작업이다. 강아지가 공을 물어오는 놀이를 영어로 "play fetch"라고 하는 데 던지면 바로 달려가 물어오는 모습을 상상하면 되지 않을까
+`fetch`를 쓴 함수는 결과물을 바로 리턴해준다. 오래 걸리지 않는 동기적 작업이라는 것이다. 결과가 0개인 경우를 제외하곤 요청이 실패하지 않는 종류의 작업이다. 강아지가 공을 물어오는 놀이를 영어로 "play fetch"라고 하는데, 공을 무조건 물어오는 강아지의 모습을 연상하며 사용하면 되지 않을까
 
 <img src="/assets/posts/play-fetch.jpeg" width="300"/>  
 (*playing fetch*)
@@ -246,8 +253,12 @@ func execute() throws -> [ResultType]
 
 `perform`이나 `execute`은 파라미터로 Request 객체나 클로져를 받는 경우이다.
 
+## 덧붙이는 말
+
+스위프트에 특화된 내용이기 때문에 다른 언어나 플랫폼은 또 다른 컨벤션을 가지고 있고 읽기 좋은 코드의 기준도 다르다. 예를 들어 자바에서는 `get`을 써서 getter를 만드는 것이 컨벤션이고, 또 안드로이드의 `View`는 `isHidden`이 아니라 `VISIBLE`, `INVISIBLE`, `GONE`을 쓴다. 이처럼 프로그래밍 언어에 따라, 플랫폼에 따라 달라진다.
+
 ## 마무리
 
-구글링과 스택오버플로우는 프로그래머가 가장 애용하는 도구/사이트일 것이다. 여기에 동의어 사전([thesaurus](https://www.thesaurus.com))도 포함되어야 한다고 생각한다. 최적의 코드를 짜기 위해 고민하는 것 만큼이나 그 코드를 가장 잘 표현하는 단어를 찾기 위해 여러 후보를 놓고 고민해보는 시간은 가치있는 투자인 것 같다. 그러면 대체 어떤 단어를 쓰고 어떻게 이름 짓는게 좋은지 알 수 있을까? '[읽기 좋은 코드가 좋은 코드다(한빛미디어)](http://www.yes24.com/24/goods/6692314)'의 저자는 좋은 코드를 많이 읽어보라고 한다. 그리고 표준 라이브러리와 프레임워크 문서를 하루 15분씩 읽어보라고 한다. 이 조언에 따라 iOS 공식 문서를 처음으로 *순서대로* 읽어봤고 이 글에 요약한 것처럼 많은걸 배울 수 있었다.
+최적의 알고리즘을 짜기 위해 고민하는 것 만큼이나 그 코드를 영어로 잘 표현하는 것도 중요한 일인 것 같다. 그러면 대체 어떤 단어를 쓰고 어떻게 이름 지어야 좋은 걸까? 먼저 [동의어 사전](https://www.thesaurus.com)을 활용해 다양한 단어를 찾아보고 뜻을 알아보자. 그리고, '[읽기 좋은 코드가 좋은 코드다(한빛미디어)](http://www.yes24.com/24/goods/6692314)'의 저자는 좋은 코드를 많이 읽어보라고 한다. 또 표준 라이브러리와 프레임워크 문서를 하루에 15분씩이라도 시간을 할애하여 읽어보면 좋다고 한다. 그 조언대로 스위프트와 iOS 공식 문서를 앞에서부터 순서대로 읽어봤는데 이 글에 요약한 것을 포함하여 많은걸 배울 수 있었다. 
 
 
