@@ -230,7 +230,7 @@ func requestLocation()
 class func requestAuthorization(_ handler: @escaping (MPMediaLibraryAuthorizationStatus) -> Void)
 ```
 
-반면에 `request`를 쓰는 함수들은 비동기 작업이어서 handler를 받고 있거나 delegate 콜백으로 결과를 전달해준다. 그리고 결과 타입이 옵셔널이고 실패했을 경우 실패 이유를 알수 있는 Error 객체도 있는걸로 보아 요청이 실패할 수도 있다는 걸 알 수 있다. 또한 iOS 앱이 유저에게 특정 권한을 요청하는 메서드는 모두 `request`로 시작한다. **이것을 보면 request는 실패할 수 있는 작업이거나 누군가가 요청을 거절 할 수도 있을 때 사용하면 좋을 것 같다.**
+반면에 `request`를 쓰는 함수들은 비동기 작업이어서 handler를 받고 있거나 delegate 콜백으로 결과를 전달해준다. 그리고 결과 타입이 옵셔널이고 실패했을 경우 실패 이유를 알수 있는 Error 객체도 있는걸로 보아 요청이 실패할 수도 있다는 걸 알 수 있다. 또한 유저에게 특정 권한을 요청하는 메서드는 모두 `request`로 시작한다. **이것을 보면 request는 실패할 수 있는 작업이거나 누군가가 요청을 거절 할 수도 있을 때 사용하면 좋을 것 같다.**
 
 ### ✏️ 작업의 단위가 클로져나 Request로 래핑 되어있으면 `perform` 혹은 `execute`
 
