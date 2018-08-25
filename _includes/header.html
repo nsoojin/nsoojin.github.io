@@ -16,7 +16,8 @@
       </label>
 
       <div class="trigger">
-        <a href="/" class="page-link {% if page.url != "/about" and page.url != "/privacy" %}active{% endif %}">Blog</a>
+        <a href="/" class="page-link {% if page.url != "/about" and page.url != "/archive" %}active{% endif %}">Blog</a>
+        <a href="/archive" class="page-link {% if page.url == "/archive" %}active{% endif %}">Archive</a>
         <a href="/about" class="page-link {% if page.url == "/about" %}active{% endif %}">About</a>
       </div>
     </nav>
