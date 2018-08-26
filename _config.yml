@@ -16,9 +16,10 @@
 title: soojin ro
 email: contact@soojin.ro
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website and blog of Soojin Ro
+  Personal Website and Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soojin.ro" # the base hostname & protocol for your site, e.g. http://example.com
+author: Soojin Ro
 github_username: nsoojin
 linkedin_username: soojin.ro
 google_analytics: UA-117081364-1
