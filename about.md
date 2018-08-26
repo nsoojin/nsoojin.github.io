@@ -12,7 +12,7 @@ meta: {}
 <h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">About</h1>
 
 <div id="leftCol">
-  <img src="/assets/SoojinRo3.JPG" width="450" style="margin-bottom: 10px" />
+  <img src="/assets/SoojinRo3.jpg" width="450" style="margin-bottom: 10px" />
   <br />
   <p style="text-align: center;"><small style="">@WWDC2015</small></p>
 </div>
