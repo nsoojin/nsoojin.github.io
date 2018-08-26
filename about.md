@@ -12,17 +12,17 @@ meta: {}
 <h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">About</h1>
 
 <div id="leftCol">
-  <img src="/assets/SoojinRo2.JPG" width="250" style="margin-bottom: 10px" />
+  <img src="/assets/SoojinRo3.JPG" width="450" style="margin-bottom: 10px" />
   <br />
-  <p style="text-align: center;"><small style="">At Waikiki 🤙</small></p>
+  <p style="text-align: center;"><small style="">@WWDC2015</small></p>
 </div>
 
 <div id="rightCol">
-  <p>I'm a mobile developer aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
+  <p>I'm a software maker aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
 
   <p><b>NAVER LABS</b></p>
 
-  <p>I work on iOS apps at Naver Labs. On a mission to better people's lives through artificial intelligence. We're <a href="http://recruit.naverlabs.com/labs/recruitMain?recruitId=20001178" target="_blank">hiring</a>!</p>
+  <p>I work on iOS apps at NAVER LABS. On a mission to better people's lives through artificial intelligence. My team is <a href="http://recruit.naverlabs.com/labs/recruitMain?recruitId=20001178" target="_blank">hiring</a></p>
 
   <!-- <p><b>Privacy research</b></p>
 
@@ -30,7 +30,7 @@ meta: {}
 
   <p><b>Security Card Widget</b></p>
 
-  <p>Since the initial launch in December 2014, my first iOS app instantly become a category killer. For three consecutive years, <a href="https://itunes.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Card Widget</a> was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps, and on going.</p>
+  <p>Since December 2014, my first iOS app instantly become a category killer. For three consecutive years, <a href="https://itunes.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Card Widget</a> was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps, and on going.</p>
 
   <p><b>Speaking & Sharing</b></p>
 
