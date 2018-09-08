@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "개발자를 위한 영어 for Swift"
+title: "Swift 개발자처럼 변수 이름 짓기"
 categories: []
 tags:
+- naming variables
 - iOS
 - english grammar
 - swift conventions
