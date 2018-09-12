@@ -40,8 +40,8 @@ meta: {}
 
 👉 앱 아이콘의 변화
 
-<img src="/assets/posts/app-icon-v1.jpeg" width="150" style="margin: 15px"/> 
-<img src="/assets/posts/app-icon-v2.jpeg" width="150" style="margin: 15px"/>
+<img src="/assets/posts/app-icon-v1.png" width="150" style="margin: 15px"/> 
+<img src="/assets/posts/app-icon-v2.png" width="150" style="margin: 15px"/>
 
 (좌) 버전 1.0 앱 아이콘 (우) 개선 후 아이콘
 
