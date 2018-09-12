@@ -10,7 +10,6 @@ tags:
 status: publish
 type: post
 published: true
-draft: true
 thanks: 
 - 조소현
 - 강한용
