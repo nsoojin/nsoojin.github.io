@@ -17,7 +17,7 @@ thanks:
 - 김남훈
 - 김영
 - 이승원
-meta: {}
+meta: {ios, my}
 ---
 
 2014년 12월 17일 [보안카드 위젯](https://itunes.apple.com/us/app/security-cards-widget/id949362849)을 출시했다. 며칠 뒤 금융 카테고리 1위, 한 달 뒤엔 유료앱 전체 2위까지 올랐다. 그 후 꾸준한 인기에 힘입어 2015년, 2016년, 2017년 3년 연속 올해를 빛낸 인기 앱에 선정됐고 현재 별점 4.7점(누적 리뷰 1,285개)을 달고 있다.
@@ -92,8 +92,12 @@ meta: {}
 
 <br>
 
-**Notes**
+**✏️ Notes**
 
 [1] [Paul Graham, How to Get Startup Ideas](http://www.paulgraham.com/startupideas.html): 시트콤 작가들이 각본을 쓰기 위해 만들어낸 그럴싸한 아이디어라는 뜻
 
 [2] 보안카드 위젯의 총 누적 다운로드 수는 5.5만
+
+**📍 Special**
+
+[이바닥늬우스](https://www.facebook.com/ebadaknews/)
