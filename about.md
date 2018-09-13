@@ -24,13 +24,9 @@ meta: {}
 
   <p>I work on iOS apps at NAVER LABS. On a mission to better people's lives through artificial intelligence. My team is <a href="http://recruit.naverlabs.com/labs/recruitMain?recruitId=20001178" target="_blank">hiring</a></p>
 
-  <!-- <p><b>Privacy research</b></p>
+  <p><b>Security Cards Widget</b></p>
 
-  <p>I've published various privacy related essays on the iOS permission system. As a result my posts reached #1 on HackerNews and got covered by major media outlets - <a href="/privacy">Read more about my privacy publications</a>.</p> -->
-
-  <p><b>Security Card Widget</b></p>
-
-  <p>Since December 2014, my first iOS app instantly become a category killer. For three consecutive years, <a href="https://itunes.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Card Widget</a> was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps, and on going.</p>
+  <p>Since December 2014, my first iOS app instantly become a category killer. For three consecutive years, <a href="https://itunes.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Cards Widget</a> was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps, and on going.</p>
 
   <p><b>Speaking & Sharing</b></p>
 

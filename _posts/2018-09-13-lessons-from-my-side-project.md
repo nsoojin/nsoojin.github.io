@@ -3,8 +3,8 @@ layout: post
 title: "앱스토어 1위를 하면서 배운 것 (feat. 사이드 프로젝트)"
 categories: []
 tags:
-- Security Card Widget
 - side project
+- Security Cards Widget
 - App Store
 - MVP
 status: publish
