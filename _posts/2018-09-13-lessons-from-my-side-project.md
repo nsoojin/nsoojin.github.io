@@ -100,4 +100,4 @@ meta: {ios, my}
 
 **📍 Special**
 
-[이바닥늬우스](https://www.facebook.com/ebadaknews/) by 김결
+[이바닥늬우스](https://www.facebook.com/ebadaknews/)
