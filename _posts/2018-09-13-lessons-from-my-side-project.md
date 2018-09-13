@@ -100,4 +100,4 @@ meta: {ios, my}
 
 **📍 Special**
 
-[이바닥늬우스](https://www.facebook.com/ebadaknews/)
+[이바닥늬우스](https://www.facebook.com/ebadaknews/) : 찰지고 신나는 테크바닥 늬우스
