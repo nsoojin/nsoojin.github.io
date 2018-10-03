@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+medium: bool-변수-이름-제대로-짓기-위한-최소한의-영어-문법-72e91cf556d1
 ---
 
 ## Background
