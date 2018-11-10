@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 meta: {}
+medium: google-promises를-활용한-스위프트-비동기-프로그래밍과-에러-핸들링-2989075a45f1
 ---
 
 ## Background
