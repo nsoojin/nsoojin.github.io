@@ -20,9 +20,9 @@ meta: {}
 <div id="rightCol">
   <p>I'm a software maker aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
 
-  <p><b>NAVER LABS</b></p>
+  <p><b>NAVER WEBTOON</b></p>
 
-  <p>I work on iOS apps at NAVER LABS. On a mission to better people's lives through artificial intelligence. My team is <a href="http://recruit.naverlabs.com/labs/recruitMain?recruitId=20001178" target="_blank">hiring</a></p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">NAVER WEBTOON</a>. More than 50M monthly users across US, Japan, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
 
   <p><b>Security Cards Widget</b></p>
 
@@ -30,7 +30,7 @@ meta: {}
 
   <p><b>Speaking & Sharing</b></p>
 
-  <p>I spoke at several conferences, including Naver D2 iOS Seminar, Naver Campus Seminar. All the presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. Also published a bestselling online course at <a href="https://www.udemy.com/swift4-ios11-ai-app">Udemy</a> for iOS beginners.</p>
+  <p>I spoke at several conferences, including <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. All the presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. Also published a bestselling online course at <a href="https://www.udemy.com/swift4-ios11-ai-app">Udemy</a> for iOS beginners.</p>
 
   <p><b>Previous Work</b></p>
 
