@@ -29,7 +29,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -47,7 +47,7 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
+    position: fixed;
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
