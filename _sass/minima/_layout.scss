@@ -24,6 +24,16 @@
   }
 }
 
+.site-logo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 26px;
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -70,7 +80,7 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 4px;
       text-align: center;
 
       > svg path {
