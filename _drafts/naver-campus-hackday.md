@@ -8,7 +8,6 @@ tags:
 - application tips
 type: post
 published: true
-draft: true
 thanks: 
 - 조소현
 - 블라블라

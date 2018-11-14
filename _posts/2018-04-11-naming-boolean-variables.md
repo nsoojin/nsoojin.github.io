@@ -7,7 +7,6 @@ tags:
 - booleans
 - english
 - grammar
-status: publish
 type: post
 published: true
 meta: {}
