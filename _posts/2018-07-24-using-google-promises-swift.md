@@ -7,7 +7,6 @@ tags:
 - promises
 - async programming
 - error handling
-status: publish
 type: post
 published: true
 meta: {}

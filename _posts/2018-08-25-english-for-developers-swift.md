@@ -7,7 +7,6 @@ tags:
 - iOS
 - english grammar
 - swift conventions
-status: publish
 type: post
 published: true
 thanks: 

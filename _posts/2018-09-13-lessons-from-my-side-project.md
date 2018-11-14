@@ -7,7 +7,6 @@ tags:
 - Security Cards Widget
 - App Store
 - MVP
-status: publish
 type: post
 published: true
 thanks: 

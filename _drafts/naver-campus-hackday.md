@@ -6,7 +6,6 @@ tags:
 - NAVER CAMPUS HACKDAY
 - mentoring
 - application tips
-status: publish
 type: post
 published: true
 draft: true
