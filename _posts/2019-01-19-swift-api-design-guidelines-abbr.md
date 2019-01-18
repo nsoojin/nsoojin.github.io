@@ -147,6 +147,7 @@ meta: {}
 
 끝.
 
-전체 번역본 : [스위프트 API 디자인 가이드라인 번역본](https://minsone.github.io/swift-internals/api-design-guidelines/)
+[가이드라인 원본](https://swift.org/documentation/api-design-guidelines/)
+[가이드라인 번역본](https://minsone.github.io/swift-internals/api-design-guidelines/?utm_source=soojinro&utm_medium=referral)
 
 
