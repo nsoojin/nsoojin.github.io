@@ -22,7 +22,7 @@ meta: {}
 
   <p><b>NAVER WEBTOON</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">NAVER WEBTOON</a>. More than 50M monthly users across US, Japan, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">NAVER WEBTOON</a>. More than 50M monthly users across US, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
 
   <p><b>Security Cards Widget</b></p>
 
