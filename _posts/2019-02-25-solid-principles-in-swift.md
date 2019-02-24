@@ -3,12 +3,16 @@ layout: post
 title: "스위프트로 다시보는 객체지향 프로그래밍: 피해야할 코딩 습관"
 categories: []
 tags:
+- Objected Oriented Programming
 - SOLID
 - Swift
 - iOS
 type: post
-draft: true
-<!-- published: true -->
+thanks: 
+- 김형중
+- 김찬희
+- 김창기님
+published: true
 meta: {}
 ---
 
