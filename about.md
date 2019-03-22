@@ -20,9 +20,9 @@ meta: {}
 <div id="rightCol">
   <p>I'm a software maker aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
 
-  <p><b>NAVER WEBTOON</b></p>
+  <p><b>WEBTOON</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">NAVER WEBTOON</a>. More than 50M monthly users across United States, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>. More than 50M monthly users across United States, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
 
   <p><b>Security Cards Widget</b></p>
 
