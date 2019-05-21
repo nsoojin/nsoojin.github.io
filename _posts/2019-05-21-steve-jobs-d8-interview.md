@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-> 2010년 5월에 열렸던 All Things Digital: D8 컨퍼런스에서 월트 모스버그(Walt Mossberg)와 카라 스위셔(Kara Swisher)가 100분 가량 스티브 잡스와 했던 인터뷰에서 발췌한 내용입니다.
+> 2010년 5월에 열렸던 All Things Digital: D8 컨퍼런스에서 월트 모스버그(Walt Mossberg)와 카라 스위셔(Kara Swisher)가 100분 가량 스티브 잡스와 했던 인터뷰에서 발췌한 내용입니다. ([유튜브 영상](https://www.youtube.com/watch?v=i5f8bqYYwps))
 
 ## 내 피가 무지개색이기 때문이다
 ### "Because I bleed in six colors"
