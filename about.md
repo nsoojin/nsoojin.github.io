@@ -14,7 +14,7 @@ meta: {}
 <div id="leftCol">
   <img src="/assets/SoojinRo3.jpg" width="450" style="margin-bottom: 10px" />
   <br />
-  <p style="text-align: center;"><small style="">@WWDC2015</small></p>
+  <p style="text-align: center;"><small style="">@June, 2019</small></p>
 </div>
 
 <div id="rightCol">
