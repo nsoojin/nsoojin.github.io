@@ -10,7 +10,9 @@ tags:
 - Boston
 type: post
 published: true
-draft: true
+thanks: 
+- 조소현
+- 안성용
 meta: {}
 ---
 
