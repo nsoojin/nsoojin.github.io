@@ -22,7 +22,7 @@ meta: {}
 
   <p><b>WEBTOON</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>. More than 50M monthly users across United States, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>. More than 55M monthly users across United States, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
 
   <p><b>Security Cards Widget</b></p>
 
@@ -30,7 +30,7 @@ meta: {}
 
   <p><b>Speaking & Sharing</b></p>
 
-  <p>I spoke at several conferences, including <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. All the presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. Also published a bestselling online course at <a href="https://www.udemy.com/swift4-ios11-ai-app">Udemy</a> for iOS beginners.</p>
+  <p>I spoke at several conferences, including <a href="https://swiftfest.io/schedule/#session-036" target="_blank">SwiftFest Boston</a>, <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. All the presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. Also published a bestselling online course at <a href="https://www.udemy.com/swift4-ios11-ai-app">Udemy</a> for iOS beginners.</p>
 
   <p><b>Previous Work</b></p>
 
