@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "SwiftFest Boston 2019 참석 후기 - 컨퍼런스가 아닌 커뮤니티"
+title: "SwiftFest Boston 2019 발표 및 참석 후기 - 컨퍼런스가 아닌 커뮤니티"
 categories: []
 tags:
 - SwiftFest
+- speaking
 - Swift
-- Conference
+- conference
 - UncleBob
 - Boston
 type: post
