@@ -15,13 +15,13 @@ published: true
 meta: {}
 ---
 
-아래 포스팅은 [BookStore-iOS](https://github.com/nsoojin/BookStore-iOS) 프로젝트의 소개글을 한글로 번역한 내용입니다.
+아래 글은 [BookStore-iOS](https://github.com/nsoojin/BookStore-iOS) 프로젝트의 소개글을 한글로 번역한 내용입니다.
 
 ## 앱 개요
 
-[IT Bookstore API](https://api.itbook.store)를 사용하여 최신 프로그래밍 책을 검색해볼 수 있는 앱입니다.
+이 샘플 앱은 [IT Bookstore API](https://api.itbook.store)를 사용하여 최신 프로그래밍 책을 검색해볼 수 있는 앱이다.
 
-해당 프로젝트는 `Result` 타입 활용, 유닛 테스팅, UI 테스팅, 네트워크 stubbing, 프레임워크 분리, 문서화 주석(documentation comment) 작성 등의 예제를 포함하고 있습니다.
+해당 프로젝트는 `Result` 타입 활용, 유닛 테스팅, UI 테스팅, 네트워크 stubbing, 프레임워크 분리, 문서화 주석(documentation comment) 작성 등의 예제를 포함하고 있다.
 
 ## 내용
 

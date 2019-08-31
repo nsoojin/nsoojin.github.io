@@ -18,27 +18,25 @@ meta: {}
 </div>
 
 <div id="rightCol">
-  <p>I'm a software maker aspired to bring technology and joy at your fingertips. I make quality apps and bring value to users.</p>
+  <p>I am a product-aware engineer who appreciates a good UX and enjoys working closely with design. </p>
 
   <p><b>WEBTOON</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>. More than 55M monthly users across United States, Taiwan, Thailand, and Indonesia enjoy comics and webtoon through our app.</p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>, deploying the app to 3M+ monthly users across United States, Southeast Asia, and LATAM. </p>
 
-  <p><b>Security Cards Widget</b></p>
+  <p><b>Side Projects</b></p>
 
-  <p>Since December 2014, my first iOS app instantly become a category killer. For three consecutive years, <a href="https://itunes.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Cards Widget</a> was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps, and on going.</p>
+  <p>My first iOS app(<a href="https://apps.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Cards Widget</a>) instantly become a category killer in December 2014. For three consecutive years, it was announced among the App Store's Best of 2015, Best of 2016, and Best of 2017 apps. </p>
 
-  <p><b>Speaking & Sharing</b></p>
+  <p>Most recently ARKit is my prime interest. Created an amusing AR app <a href="https://apps.apple.com/kr/app/notable-me/id1453810473?l=en" target="_blank">Notable Me</a> which lets you swap historic figures on the dollar bills with your own selfie. </p>
 
-  <p>I spoke at several conferences, including <a href="https://swiftfest.io/schedule/#session-036" target="_blank">SwiftFest Boston</a>, <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. All the presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. Also published a bestselling online course at <a href="https://www.udemy.com/swift4-ios11-ai-app">Udemy</a> for iOS beginners.</p>
+  <p><b>Speaking</b></p>
 
-  <p><b>Previous Work</b></p>
-
-  <p>I've worked on many iOS apps, like <a href="https://itunes.apple.com/us/app/aki-보호자앱/id1301270077?ls=1">AKI</a>, <a href="https://itunes.apple.com/kr/app/디코드-유럽-패션-거리-쇼핑/id1076296181">d.code</a>, <a href="https://itunes.apple.com/kr/app/닥터파킹/id1080576866" target="_blank">Dr. Parking</a>, an android app <a href="https://play.google.com/store/apps/details?id=com.linecorp.linelite" target="_blank">Line Lite</a>, and several others which didn't make it.</p>
+  <p>I spoke at several international conferences, including <a href="https://www.tryswift.co/events/2019/nyc/#arkit-coreml" target="_blank">try! Swift NYC 2019</a>, <a href="https://swiftfest.io/schedule/#session-036" target="_blank">SwiftFest Boston</a>, <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. Some presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. </p>
 
   <p><b>University</b></p>
 
-  <p>I earned a Bachelor of Business Administration at Yonsei University and graduated <a href="http://nhnnext.org" target="_blank">NEXT Institute</a> where I majored in Software Engineering and Entrepreneurship.</p>
+  <p>I earned a Bachelor of Business Administration at Yonsei University and graduated NEXT Institute where I majored in Software Engineering and Entrepreneurship.</p>
 </div>
 
 
@@ -96,12 +94,12 @@ meta: {}
     margin-right: 30px;
     width: 100%;
     text-align: center;
-    height: 600px;
   }
   @media screen and (min-width: 800px) {
     #leftCol {
         width: 40%; 
         float: left;
+        height: 600px;
       }
     }
   }
