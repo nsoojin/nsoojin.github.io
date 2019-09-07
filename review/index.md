@@ -8,9 +8,9 @@ published: true
 meta: {}
 ---
 
-# 개발자를 위한 코드 리뷰 가이드
+# 구글의 코드 리뷰 가이드
 
-아래 글은 [Google Code Review Developer Guide](https://google.github.io/eng-practices/review/)의 요약 번역본입니다.
+아래 글은 [Google Code Review Developer Guide](https://google.github.io/eng-practices/review/)의 **요약 번역본**입니다.
 
 ## 용어 정의
 - `CL`: "changelist"의 약어. 소스 코드 관리(version control)에 반영되었거나 리뷰를 받고 있는 코드의 집합체 단위.
