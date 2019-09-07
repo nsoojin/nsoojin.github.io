@@ -22,7 +22,7 @@ meta: {}
 
   <p><b>WEBTOON</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>, deploying the app to 3M+ monthly users across United States, Southeast Asia, and LATAM. </p>
+  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>, deploying the app to users across United States, Southeast Asia, etc. </p>
 
   <p><b>Side Projects</b></p>
 
