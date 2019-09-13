@@ -32,7 +32,7 @@ meta: {}
 
   <p><b>Speaking</b></p>
 
-  <p>I spoke at several international conferences, including <a href="https://www.tryswift.co/events/2019/nyc/#arkit-coreml" target="_blank">try! Swift NYC 2019</a>, <a href="https://swiftfest.io/schedule/#session-036" target="_blank">SwiftFest Boston</a>, <a href="http://letswift.kr/2018/" target="_blank">LetSwift '18</a>, Naver D2 iOS Seminar, Naver Campus Seminar. Some presentations are available at <a href="https://www.slideshare.net/soojinro9" target="_blank">slideshare</a>. </p>
+  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
 
   <p><b>University</b></p>
 
@@ -50,7 +50,7 @@ meta: {}
     #leftCol {
         width: 35%; 
         float: left;
-        height: 580px;
+        height: 520px;
       }
     }
   }
