@@ -185,6 +185,60 @@ article {
   }
 }
 
+.simple-content {
+  img {
+    max-width: calc(100% - 10px);
+  }
+  img.inline-img {
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    color: rgb(36, 41, 46);
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 0.3em;
+    line-height: 1.25;
+    color: rgb(36, 41, 46) !important;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #24292e !important;
+    line-height: 25px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  h5 {
+    color: rgb(36, 41, 46);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+}
+
 body, html{
     overflow-x: hidden;
 }

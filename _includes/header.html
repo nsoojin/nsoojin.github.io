@@ -12,8 +12,9 @@
       </label>
 
       <div class="trigger">
-        <a href="/" class="page-link {% if page.url != "/about" and page.url != "/archive" %}{% unless page.url contains 'review'%}active{% endunless %}{% endif %}">Blog</a>
+        <a href="/" class="page-link {% if page.url != "/about" and page.url != "/archive" and page.url != "/speaking" %}{% unless page.url contains 'review'%}active{% endunless %}{% endif %}">Blog</a>
         <a href="/review" class="page-link {% if page.url contains 'review' %}active{% endif %}">Review</a>
+        <a href="/speaking" class="page-link {% if page.url == "/speaking" %}active{% endif %}">Speaking</a>
         <a href="/archive" class="page-link {% if page.url == "/archive" %}active{% endif %}">Archive</a>
         <a href="/about" class="page-link {% if page.url == "/about" %}active{% endif %}">About</a>
       </div>
