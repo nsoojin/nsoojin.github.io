@@ -13,7 +13,7 @@ meta: {}
 
 nothing yet ☺️
 
-# Past
+# Past Talks
 
 ### Deeper into ARKit with CoreML and Turi Create
 [try! Swift NYC](https://www.tryswift.co/events/2019/nyc/) / September 2019 - New York, US ([slides](https://www.slideshare.net/soojinro9/deeper-into-arkit-with-coreml-and-turi-create), video coming soon)

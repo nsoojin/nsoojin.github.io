@@ -15,7 +15,7 @@ published: true
 meta: {}
 ---
 
-아래 글은 [BookStore-iOS](https://github.com/nsoojin/BookStore-iOS) 프로젝트의 소개글을 한글로 번역한 내용입니다.
+아래 글은 [BookStore-iOS](https://github.com/nsoojin/BookStore-iOS) 프로젝트의 소개 글의 한글 버전입니다.
 
 ## 앱 개요
 
