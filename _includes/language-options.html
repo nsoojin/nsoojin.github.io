@@ -1,0 +1,30 @@
+<p class="lang-title">
+  {{ site.data.translations['see_in_different_language'][page.lang] }}
+</p>
+
+<ul>
+{% for lang in site.data.languages %}
+  {% assign label_key=lang[1].label %}
+  {% assign icon=lang[1].icon %}
+  {% assign page_url={{ page.lang-ref }}-{{ lang[0] }} %}
+  <li>
+  	<img style="margin-right: 6px; margin-bottom: 3px" src="{{ icon }}" width="18"/>
+  	<a class="language" href="{{site.baseurl}}/{{ page.lang-ref }}-{{ lang[0] }}">{{ site.data.translations[label_key][page.lang] }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+<style type="text/css">
+  a:hover .language { 
+  	text-decoration: underline; 
+  }
+  ul {
+  	margin-left: 0px;
+    list-style-type: none;
+  }
+  .lang-title {
+    color: #353535;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+</style>

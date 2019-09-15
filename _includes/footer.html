@@ -20,7 +20,11 @@
           </li>
         </ul>
       </div>
-      <div class="footer-col footer-col-2"></div>
+      {% if page.lang %}
+        <div class="footer-col footer-col-3">
+          {% include language-options.html %}
+        </div>
+      {% endif %}
     </div>
 
   </div>
