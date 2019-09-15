@@ -14,7 +14,7 @@ meta: {}
 <div id="leftCol">
   <img src="/assets/SooJinRo-2018.jpg" width="270" style="margin-bottom: 10px" />
   <br />
-  <p style="text-align: center;"><small style="">LetSwift '18</small></p>
+  <p style="text-align: center;"><small style="">Soojin Ro / 노수진</small></p>
 </div>
 
 <div id="rightCol">
