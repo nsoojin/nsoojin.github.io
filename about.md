@@ -32,7 +32,7 @@ meta: {}
 
   <p><b>Speaking</b></p>
 
-  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. Check out my past talks <a href="{{ site.baseurl }}/speaking-en">here</a>. </p>
+  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
 
   <p><b>University</b></p>
 
