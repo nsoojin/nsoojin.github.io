@@ -6,6 +6,7 @@ tags: []
 status: publish
 published: true
 meta: {}
+permalink: /review
 ---
 
 # 구글의 코드 리뷰 가이드

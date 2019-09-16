@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }} </a>
+    <a class="site-title" href="{{ '/'' | relative_url }}">{{ site.title | escape }} </a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -12,11 +12,11 @@
       </label>
 
       <div class="trigger">
-        <a href="/" class="page-link {% if page.url != "/about" and page.url != "/archive" and page.url != "/speaking-en" and page.url != "/speaking-kr" %}{% unless page.url contains 'review'%}active{% endunless %}{% endif %}">Blog</a>
+        <a href="/" class="page-link {% if page.url != '/about' and page.url != '/archive' and page.url != '/speaking-en' and page.url != '/speaking-kr' and page.url != '/speaking' %}{% unless page.url contains 'review'%}active{% endunless %}{% endif %}">Blog</a>
         <a href="/review" class="page-link {% if page.url contains 'review' %}active{% endif %}">Review</a>
-        <a href="/speaking-en" class="page-link {% if page.url == "/speaking-en" or page.url == "/speaking-kr" %}active{% endif %}">Speaking</a>
-        <a href="/archive" class="page-link {% if page.url == "/archive" %}active{% endif %}">Archive</a>
-        <a href="/about" class="page-link {% if page.url == "/about" %}active{% endif %}">About</a>
+        <a href="/speaking" class="page-link {% if page.url == '/speaking-en' or page.url == '/speaking-kr' or page.url == '/speaking' %}active{% endif %}">Speaking</a>
+        <a href="/archive" class="page-link {% if page.url == '/archive' %}active{% endif %}">Archive</a>
+        <a href="/about" class="page-link {% if page.url == '/about' %}active{% endif %}">About</a>
       </div>
     </nav>
   </div>
