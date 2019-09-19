@@ -1,6 +1,8 @@
 en:
   label: lang_english
   icon: /assets/language-icons/us.png
+  suffix: ''
 kr:
   label: lang_korean
   icon: /assets/language-icons/kr.png
+  suffix: -kr
