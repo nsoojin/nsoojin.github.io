@@ -9,7 +9,7 @@ published: true
 meta: {}
 lang: en
 lang-ref: speaking
-permalink: /speaking/
+permalink: /speaking
 ---
 # Upcoming
 

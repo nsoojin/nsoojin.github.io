@@ -9,7 +9,7 @@ published: true
 meta: {}
 lang: en
 lang-ref: about
-permalink: /about/
+permalink: /about
 ---
 
 <h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">About</h1>
