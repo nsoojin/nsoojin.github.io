@@ -32,7 +32,7 @@ nothing yet ☺️
 <strong class="talk-title">Ranking App Store #1 with Side Project</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[Let`Swift](http://letswift.kr/2018/) / Nov 2018 - Seosul, South Korea ([video](https://www.youtube.com/watch?v=_2t24zQvRFs))
+[Let'Swift](http://letswift.kr/2018/) / Nov 2018 - Seoul, South Korea ([video](https://www.youtube.com/watch?v=_2t24zQvRFs))
 <br>
 [D2 iOS Open Seminar](https://d2.naver.com/news/9814448) / Jun 2016 - Seoul, South Korea ([slides](https://www.slideshare.net/soojinro9/d2-63435589))
 
