@@ -21,7 +21,7 @@ permalink: /about
 </div>
 
 <div id="rightCol">
-  <p>I am a product-aware engineer who appreciates a good UX and enjoys working closely with design.</p>
+  <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
 
   <p><b>WEBTOON</b></p>
 
