@@ -20,7 +20,7 @@ permalink: /speaking-kr
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[try! Swift NYC](https://www.tryswift.co/events/2019/nyc/) / 2019년 9월 - 뉴욕 ([발표자료](https://www.slideshare.net/soojinro9/deeper-into-arkit-with-coreml-and-turi-create), 영상 준비중)
+[try! Swift NYC](https://www.tryswift.co/events/2019/nyc/) / 2019년 9월 - 뉴욕 ([영상](https://www.youtube.com/watch?v=VBZve4cLH4E), [발표자료](https://www.slideshare.net/soojinro9/deeper-into-arkit-with-coreml-and-turi-create))
 <br>
 [SwiftFest](https://swiftfest.io) / 2019년 7월 - 보스턴
 

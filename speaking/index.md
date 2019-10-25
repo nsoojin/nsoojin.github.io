@@ -20,7 +20,7 @@ nothing yet ☺️
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[try! Swift NYC](https://www.tryswift.co/events/2019/nyc/) / Sep 2019 - New York, US ([slides](https://www.slideshare.net/soojinro9/deeper-into-arkit-with-coreml-and-turi-create), video coming soon)
+[try! Swift NYC](https://www.tryswift.co/events/2019/nyc/) / Sep 2019 - New York, US ([video](https://www.youtube.com/watch?v=VBZve4cLH4E), [slides](https://www.slideshare.net/soojinro9/deeper-into-arkit-with-coreml-and-turi-create))
 <br>
 [SwiftFest](https://swiftfest.io) / Jul 2019 - Boston, US
 
