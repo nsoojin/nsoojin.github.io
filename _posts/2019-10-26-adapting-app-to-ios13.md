@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "개인 앱 iOS 13 대응 후기"
+title: "iOS 13 앱 업데이트 후기"
 categories: []
 tags:
 - iOS 13
