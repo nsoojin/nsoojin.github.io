@@ -13,7 +13,12 @@ permalink: /speaking
 ---
 # Upcoming
 
-nothing yet ☺️
+<!-- nothing yet ☺️ -->
+
+<strong class="talk-title">Making Stateful UI with GameplayKit</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[Let'Swift Pangyo](https://festa.io/events/803) / Jan 2020 - Pangyo, South Korea
 
 # Past Talks 
 

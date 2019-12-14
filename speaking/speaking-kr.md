@@ -13,7 +13,12 @@ permalink: /speaking-kr
 ---
 # 다음
 
-일정이 없습니다 ☺️
+<!-- 일정이 없습니다 ☺️ -->
+
+<strong class="talk-title">GameplayKit으로 상태표시 UI 쉽게 만들기</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[레츠스위프트 판교](https://festa.io/events/803) / 2020년 1월 - 판교
 
 # 지난 발표
 
