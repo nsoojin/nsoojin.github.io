@@ -35,7 +35,7 @@ permalink: /about
 
   <p><b>Speaking</b></p>
 
-  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
+  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. I also co-organize a monthly iOS meetup, <a href="https://festa.io/hosts/625">Let'Swift Pangyo</a>. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
 
   <p><b>University</b></p>
 
@@ -53,7 +53,7 @@ permalink: /about
     #leftCol {
         width: 35%; 
         float: left;
-        height: 520px;
+        height: 540px;
       }
     }
   }

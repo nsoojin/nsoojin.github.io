@@ -33,7 +33,7 @@ permalink: /about-kr
 
   <p><b>발표</b></p>
 
-  <p>다양한 개발자 컨퍼런스에서 지식과 경험을 공유하고 있습니다. 과거 발표 자료는 <a href="{{ site.baseurl }}/speaking-kr">여기</a>에서 자세히 보실 수 있습니다.</p>
+  <p>지식과 경험을 나누고 커뮤니티를 아낍니다. 뉴욕, 보스턴, 서울 등에서 열린 다양한 개발자 컨퍼런스에서 발표를 했고 판교 지역 iOS 개발자 모임 <a href="https://festa.io/hosts/625">레츠스위프트 판교</a>를 공동 주최하고 있습니다. 과거 발표 자료는 <a href="{{ site.baseurl }}/speaking-kr">여기</a>에서 자세히 보실 수 있습니다.</p>
 
   <p><b>학업</b></p>
 
