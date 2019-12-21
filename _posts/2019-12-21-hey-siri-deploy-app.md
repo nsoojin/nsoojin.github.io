@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-<img src="/assets/posts/siri01.png" width="300" />
+<img src="/assets/posts/siri01.png" width="400" />
 <p style="text-align: left;"><small>시리 응답이 웰케 애잔하냐...</small></p>
 
 ## 배경
@@ -44,7 +44,7 @@ meta: {}
 
 여기까지만 해줘도 배포가 훨씬 덜 귀찮은 작업이 됐다. 하지만 시리 숏컷이 처음 나왔을때부터 시리한테 배포를 시켜보는 것이 로망이었기 때문에 한 단계 더 나가봤다. 아이폰에서 시리 숏컷(단축어) 앱을 실행하여 숏컷을 하나 생성한다. 아래처럼 Get Contents of URL 에다가 배포 URL을 넣고 POST를 선택해주고 내가 원하는 명령어를 입력해주면 끝이다.
 
-<img src="/assets/posts/siri03.png" width="300" />
+<img src="/assets/posts/siri03.png" width="400" />
 
 ## 느낀점
 
@@ -52,5 +52,5 @@ meta: {}
 
 시리 숏컷도 처음 써봤는데 상상 이상으로 잘 만들어져 있어서 놀라웠다. 간단한 인터페이스로 할 수 있는 일이 무궁무진하다. 심지어 if문, 반복문, 변수 할당, 사용자 인풋 받기, 얼럿 띄우기 등등이 가능해서 흡사 앱 개발처럼 느껴진다. 친구한테 알려주니 우스갯소리로 스크래치말고 시리 숏컷으로 프로그래밍 배워야하는거 아니냐고 그랬는데 정말 불가능한 일도 아닌거 같다. 때마침 [긱뉴스](https://news.hada.io)에서 [No Code is New Programming](https://jeremyqho.com/no-code-is-new-programming)라는 글을 읽게 되었는데, API가 정말 고도화되면 맨 마지막 단계에서는 코드 없는 인터페이스가 탄생한다는 것이고 이게 프로그래밍의 미래 모습이라는 것이다. 시리 숏컷이 이런 개념에 포함되는게 아닌가 싶다. 글이 배포 자동화로 시작해서 시리 숏컷 찬양으로 끝나게 되었는데, 시리 숏컷이 단순히 내 아이폰에 있는 앱을 실행시켜주는게 다가 아니라 여러 API*(즉, iOS 앱)*를 코드 없이 조합할 수 있다는 것에 큰 영감을 얻게 되었다.
 
-<img src="/assets/posts/siri04.png" width="300" />
+<img src="/assets/posts/siri04.png" width="400" />
 <p style="text-align: left;"><small>"알겠습니다.."가 너무 애잔하여 응답을 바꿨다.</small></p>
