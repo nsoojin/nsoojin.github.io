@@ -13,14 +13,14 @@ permalink: /speaking
 ---
 # Upcoming
 
-<!-- nothing yet ☺️ -->
+no plans yet ☺️
+
+# Past Talks 
 
 <strong class="talk-title">Making Stateful UI with GameplayKit</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea
-
-# Past Talks 
+[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea ([slides](https://www.slideshare.net/soojinro9/gameplaykit-ui))
 
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
