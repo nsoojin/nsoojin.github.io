@@ -20,7 +20,7 @@ permalink: /speaking-kr
 <strong class="talk-title">GameplayKit으로 상태표시 UI 쉽게 만들기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[레츠스위프트 판교](https://festa.io/events/803) / 2020년 1월 15일 - 판교 ([발표자료](https://www.slideshare.net/soojinro9/gameplaykit-ui))
+[레츠스위프트 판교](https://festa.io/events/803) / 2020년 1월 15일 - 판교 ([발표자료](https://www.slideshare.net/soojinro9/gameplaykit-ui), 영상 준비중)
 
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
@@ -44,7 +44,7 @@ permalink: /speaking-kr
 <strong class="talk-title">영어 변수명을 잘 지어보자</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[사내 iOS 밋업](https://recruit.webtoonscorp.com/webtoon/ko/job/list) / 2018년 8월 - 그린팩토리 ([영상](https://tv.naver.com/v/4980432), [읽을거리 #1]({{ site.baseurl }}/blog/english-for-developers-swift), [읽을거리 #2]({{ site.baseurl }}/blog/naming-boolean-variables))
+[사내 iOS 밋업](https://recruit.webtoonscorp.com/webtoon/ko/job/list) / 2018년 8월 - 그린팩토리 ([영상](https://tv.naver.com/v/4980432), [발표자료](https://speakerdeck.com/nsoojin/gaebaljareul-wihan-yeongeo-munbeob), [읽을거리 #1]({{ site.baseurl }}/blog/english-for-developers-swift), [읽을거리 #2]({{ site.baseurl }}/blog/naming-boolean-variables))
 
 <strong class="talk-title">학생 개발자에서 신입 개발자로 한 단계 업그레이드 하기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>

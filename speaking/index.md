@@ -20,7 +20,7 @@ no plans yet ☺️
 <strong class="talk-title">Making Stateful UI with GameplayKit</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea ([slides](https://www.slideshare.net/soojinro9/gameplaykit-ui))
+[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea ([slides](https://www.slideshare.net/soojinro9/gameplaykit-ui), video forthcoming)
 
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
@@ -44,7 +44,7 @@ no plans yet ☺️
 <strong class="talk-title">Naming Tips for Swift Programmers</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[NAVER iOS Meetup](https://recruit.webtoonscorp.com/webtoon/ko/job/list) / Aug 2018 - Seongnam, South Korea ([video](https://tv.naver.com/v/4980432), [article #1]({{ site.baseurl }}/blog/english-for-developers-swift), [article #2]({{ site.baseurl }}/blog/naming-boolean-variables))
+[NAVER iOS Meetup](https://recruit.webtoonscorp.com/webtoon/ko/job/list) / Aug 2018 - Seongnam, South Korea ([video](https://tv.naver.com/v/4980432), [slides](https://speakerdeck.com/nsoojin/gaebaljareul-wihan-yeongeo-munbeob), [article #1]({{ site.baseurl }}/blog/english-for-developers-swift), [article #2]({{ site.baseurl }}/blog/naming-boolean-variables))
 
 <strong class="talk-title">From Student to Professional Programmer</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
