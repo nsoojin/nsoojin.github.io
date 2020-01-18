@@ -18,7 +18,7 @@ permalink: /speaking-kr
 <strong class="talk-title">iPhreaks Episode with Soojin Ro (팟캐스트)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[DevChat.TV](https://devchat.tv/iphreaks/) / 2월 중 공개
+[DevChat.tv](https://devchat.tv/iphreaks/) / 2월 중 공개
 
 # 지난 발표
 

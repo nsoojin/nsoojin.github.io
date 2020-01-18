@@ -21,7 +21,7 @@ permalink: /about-kr
 </div>
 
 <div id="rightCol">
-  <p><b>네이버 웹툰</b></p>
+  <p><b>네이버웹툰</b></p>
 
   <p>미국, 동남아, 유럽 등의 지역에서 수백만 명의 유저가 사용하는 <a href="https://www.webtoons.com/en/" target="_blank">글로벌 웹툰</a> 앱을 개발하고 있습니다.</p>
 
