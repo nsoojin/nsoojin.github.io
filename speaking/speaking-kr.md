@@ -37,7 +37,7 @@ permalink: /speaking-kr
 <strong class="talk-title">사이드 프로젝트로 앱스토어 1위 공략해보기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[레츠스위프트](http://letswift.kr/2018/) / 2018년 11월 - 서울 ([영상](https://www.youtube.com/watch?v=_2t24zQvRFs))
+[레츠스위프트](http://letswift.kr/2018/) / 2018년 11월 - 서울 ([영상](https://www.youtube.com/watch?v=_2t24zQvRFs), [발표자료](https://speakerdeck.com/nsoojin/saideu-peurojegteuro-aebseutoeo-1wi-gongryaghagi), [읽을거리]({{ site.baseurl }}/blog/lessons-from-my-side-project))
 <br>
 [D2 iOS 오픈 세미나](https://d2.naver.com/news/9814448) / 2016년 6월 - 서울 ([발표자료](https://www.slideshare.net/soojinro9/d2-63435589))
 
