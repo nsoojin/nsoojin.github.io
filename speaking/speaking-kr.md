@@ -13,7 +13,12 @@ permalink: /speaking-kr
 ---
 # 다음
 
-일정이 없습니다 ☺️
+<!-- 일정이 없습니다 ☺️ -->
+
+<strong class="talk-title">iPhreaks Episode with Soojin Ro</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[DevChat.TV](https://devchat.tv/iphreaks/) / 2월 중
 
 # 지난 발표
 

@@ -13,7 +13,12 @@ permalink: /speaking
 ---
 # Upcoming
 
-no plans yet ☺️
+<!-- No plans yet ☺️ -->
+
+<strong class="talk-title">iPhreaks Episode with Soojin Ro</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[DevChat.TV](https://devchat.tv/iphreaks/) / TBA
 
 # Past Talks 
 
