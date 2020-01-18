@@ -15,10 +15,10 @@ permalink: /speaking
 
 <!-- No plans yet ☺️ -->
 
-<strong class="talk-title">iPhreaks Episode with Soojin Ro</strong>
+<strong class="talk-title">iPhreaks Episode with Soojin Ro (Podcast)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[DevChat.TV](https://devchat.tv/iphreaks/) / TBA
+[DevChat.TV](https://devchat.tv/iphreaks/) / Feb 2020
 
 # Past Talks 
 
