@@ -263,6 +263,7 @@
 .draft-header {
   @include relative-font-size(2.0);
   font-weight: bolder;
+  color: red;
   border: 3px solid red;
   padding: 10px;
   text-align: center;
