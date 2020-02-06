@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "레츠스위프트 발표자 신청을 받습니다"
+title: "경험 발표의 가치"
 categories: []
 tags:
 - letswift
