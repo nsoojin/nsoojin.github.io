@@ -14,7 +14,7 @@
       <div class="trigger">
         <a href="/" class="page-link {% if page.url != '/about' and page.url != '/about-kr' and page.url != '/archive' and page.url != '/speaking-kr' and page.url != '/speaking' %}{% unless page.url contains 'review'%}active{% endunless %}{% endif %}">Blog</a>
         <a href="/archive" class="page-link {% if page.url == '/archive' %}active{% endif %}">Archive</a>
-        <a href="{{ site.baseurl }}{% link review/index.md %}" class="page-link {% if page.url contains 'review' %}active{% endif %}">Review</a>
+        <!-- <a href="{{ site.baseurl }}{% link review/index.md %}" class="page-link {% if page.url contains 'review' %}active{%   endif %}">Review</a> -->
         <a href="{{ site.baseurl }}{% link speaking/index.md %}" class="page-link {% if page.url == '/speaking' or page.url == '/speaking-kr' %}active{% endif %}">Speaking</a>
         <a href="{{ site.baseurl }}{% link about/index.md %}" class="page-link {% if page.url == '/about' or page.url == '/about-kr' %}active{% endif %}">About</a>
       </div>
