@@ -12,13 +12,7 @@ lang-ref: about
 permalink: /about
 ---
 
-<h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">About</h1>
-
-<div id="leftCol">
-  <img src="/assets/SooJinRo-2018.jpg" width="270" style="margin-bottom: 10px" />
-  <br />
-  <p style="text-align: center;"><small style="">Soojin Ro / 노수진</small></p>
-</div>
+<h1 style="text-align: center; margin-bottom: 15px; margin-top: -10px">About</h1>
 
 <div id="rightCol">
   <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
