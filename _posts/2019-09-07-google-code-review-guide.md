@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "구글의 코드 리뷰 가이드"
+title: "구글 코드 리뷰 가이드"
 categories: []
 tags:
 - code review guide

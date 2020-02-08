@@ -27,11 +27,11 @@ permalink: /about-kr
 
   <p><b>발표</b></p>
 
-  <p>지식과 경험을 나누고 커뮤니티를 아낍니다. 뉴욕, 보스턴, 서울 등에서 열린 다양한 개발자 컨퍼런스에서 발표를 했고 판교 지역 iOS 개발자 모임 <a href="https://festa.io/hosts/625">레츠스위프트 판교</a>를 공동 주최하고 있습니다. 과거 발표 자료는 <a href="{{ site.baseurl }}/speaking-kr">여기</a>에서 자세히 보실 수 있습니다.</p>
+  <p>뉴욕, 보스턴, 서울 등에서 열린 다양한 개발자 컨퍼런스에서 발표를 했고 판교 지역 iOS 개발자 모임 <a href="https://festa.io/hosts/625">레츠스위프트 판교</a>를 공동 주최하고 있습니다. 과거 발표 자료는 <a href="{{ site.baseurl }}/speaking-kr">여기</a>에서 자세히 보실 수 있습니다.</p>
 
-  <p><b>학업</b></p>
+  <p><b>예전 업무 및 프로젝트</b></p>
 
-  <p>연세대학교에서 경영학 학사를 졸업했고 NHN NEXT에서 모바일 프로그래밍과 Entrepreneurship 전공을 수료했습니다. </p>
+  <p>네이버 랩스, 라인 라이트, 오픈소스 프로젝트, 유데미 온라인 iOS 강좌 등</p>
 </div>
 
 <style type="text/css">

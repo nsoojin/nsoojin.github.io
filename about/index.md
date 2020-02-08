@@ -29,11 +29,11 @@ permalink: /about
 
   <p><b>Speaking</b></p>
 
-  <p>Sharing knowledge and ideas is my passion. I spoke at various conferences and meetups in New York, Boston, and Seoul. I also co-organize a monthly iOS meetup, <a href="https://festa.io/hosts/625">Let'Swift Pangyo</a>. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
+  <p>I spoke at various conferences and meetups in New York, Boston, and Seoul. I also co-organize a monthly iOS meetup, <a href="https://festa.io/hosts/625">Let'Swift Pangyo</a>. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
 
-  <p><b>University</b></p>
+  <p><b>Other work and projects</b></p>
 
-  <p>I earned a Bachelor of Business Administration at Yonsei University and graduated NEXT Institute where I majored in Software Engineering and Entrepreneurship.</p>
+  <p>NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
 </div>
 
 <style type="text/css">
