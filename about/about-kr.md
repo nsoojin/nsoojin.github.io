@@ -15,9 +15,9 @@ permalink: /about-kr
 <h1 style="text-align: center; margin-bottom: 15px; margin-top: -10px">About</h1>
 
 <div id="rightCol">
-  <p><b>네이버웹툰</b></p>
+  <p><b>Grab</b></p>
 
-  <p>미국, 동남아, 유럽 등의 지역에서 수백만 명의 유저가 사용하는 <a href="https://www.webtoons.com/en/" target="_blank">글로벌 웹툰</a> 앱을 개발하고 있습니다.</p>
+  <p>동남아시아의 <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'슈퍼앱'</a>을 만들고 있는 Grab에서 iOS 개발을 하고 있습니다.</p>
 
   <p><b>사이드 프로젝트</b></p>
 
@@ -31,7 +31,7 @@ permalink: /about-kr
 
   <p><b>예전 업무 및 프로젝트</b></p>
 
-  <p>네이버랩스, 라인 라이트, 오픈소스 프로젝트 몇개, 유데미 온라인 iOS 강좌 등</p>
+  <p>네이버웹툰, 네이버랩스, 라인 라이트, 오픈소스 프로젝트, 유데미 iOS 강좌 등</p>
 </div>
 
 <style type="text/css">

@@ -17,9 +17,9 @@ permalink: /about
 <div id="rightCol">
   <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
 
-  <p><b>WEBTOON</b></p>
+  <p><b>Grab</b></p>
 
-  <p>I work on iOS apps at <a href="https://www.webtoons.com/en/" target="_blank">WEBTOON</a>, deploying the app to users across United States, Southeast Asia, etc. </p>
+  <p>I work on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>, specifically GrabPay.</p>
 
   <p><b>Side Projects</b></p>
 
@@ -33,7 +33,7 @@ permalink: /about
 
   <p><b>Other work and projects</b></p>
 
-  <p>NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
+  <p>WEBTOON, NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
 </div>
 
 <style type="text/css">
