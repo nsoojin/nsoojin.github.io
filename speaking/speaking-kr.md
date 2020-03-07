@@ -18,14 +18,14 @@ permalink: /speaking-kr
 <strong class="talk-title">iPhreaks Episode with Soojin Ro (팟캐스트)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[DevChat.tv](https://devchat.tv/iphreaks/) / 2월 중 공개
+[DevChat.tv](https://devchat.tv/iphreaks/) / 3월 중 공개
 
 # 지난 발표
 
 <strong class="talk-title">GameplayKit으로 상태표시 UI 쉽게 만들기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[레츠스위프트 판교](https://festa.io/events/803) / 2020년 1월 15일 - 판교 ([발표자료](https://www.slideshare.net/soojinro9/gameplaykit-ui), 영상 준비중)
+[레츠스위프트 판교](https://festa.io/events/803) / 2020년 1월 15일 - 판교 ([발표자료](https://www.slideshare.net/soojinro9/gameplaykit-ui), [소스코드](https://github.com/nsoojin/VoiceControlSample-iOS))
 
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>

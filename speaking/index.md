@@ -18,14 +18,14 @@ permalink: /speaking
 <strong class="talk-title">iPhreaks Episode with Soojin Ro (Podcast)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[DevChat.tv](https://devchat.tv/iphreaks/) / Feb 2020
+[DevChat.tv](https://devchat.tv/iphreaks/) / Mar 2020
 
 # Past Talks 
 
 <strong class="talk-title">Making Stateful UI with GameplayKit</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea ([slides](https://www.slideshare.net/soojinro9/gameplaykit-ui), video forthcoming)
+[Let'Swift Pangyo](https://festa.io/events/803) / 15 Jan 2020 - Pangyo, South Korea ([slides](https://www.slideshare.net/soojinro9/gameplaykit-ui), [source code](https://github.com/nsoojin/VoiceControlSample-iOS))
 
 <strong class="talk-title">Deeper into ARKit with CoreML and Turi Create</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
