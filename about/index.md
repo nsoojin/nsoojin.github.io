@@ -19,7 +19,7 @@ permalink: /about
 
   <p><b>Grab</b></p>
 
-  <p>I work on improving the payment experience for users on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>.</p>
+  <p>I work on improving mobile payment experience for users on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>.</p>
 
   <p><b>Side Projects</b></p>
 
