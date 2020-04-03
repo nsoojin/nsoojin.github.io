@@ -13,14 +13,14 @@ permalink: /speaking
 ---
 # Upcoming
 
-<!-- No plans yet ☺️ -->
-
-<strong class="talk-title">iPhreaks Episode with Soojin Ro (Podcast)</strong>
-<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
-<br>
-[DevChat.tv](https://devchat.tv/iphreaks/) / Mar 2020
+No plans yet ☺️
 
 # Past Talks 
+
+<strong class="talk-title">Building Augmented Reality Apps using AI (Podcast)</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[DevChat.tv](https://devchat.tv/iphreaks/ips-286-building-augmented-reality-apps-using-ai-with-soojin-ro/) / 31 Mar 2020 ([iPhreaks](https://devchat.tv/iphreaks/ips-286-building-augmented-reality-apps-using-ai-with-soojin-ro/), [Podcast](https://podcasts.apple.com/us/podcast/ips-286-building-augmented-reality-apps-using-ai-soojin/id634022060?i=1000470069918))
 
 <strong class="talk-title">Making Stateful UI with GameplayKit</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>

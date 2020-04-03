@@ -13,14 +13,14 @@ permalink: /speaking-kr
 ---
 # 다음
 
-<!-- 일정이 없습니다 ☺️ -->
-
-<strong class="talk-title">iPhreaks Episode with Soojin Ro (팟캐스트)</strong>
-<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
-<br>
-[DevChat.tv](https://devchat.tv/iphreaks/) / 3월 중 공개
+일정이 없습니다 ☺️
 
 # 지난 발표
+
+<strong class="talk-title">Building Augmented Reality Apps using AI (팟캐스트)</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[DevChat.tv](https://devchat.tv/iphreaks/ips-286-building-augmented-reality-apps-using-ai-with-soojin-ro/) / 2020년 3월 31일 ([iPhreaks](https://devchat.tv/iphreaks/ips-286-building-augmented-reality-apps-using-ai-with-soojin-ro/), [팟캐스트](https://podcasts.apple.com/us/podcast/ips-286-building-augmented-reality-apps-using-ai-soojin/id634022060?i=1000470069918))
 
 <strong class="talk-title">GameplayKit으로 상태표시 UI 쉽게 만들기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
