@@ -14,13 +14,13 @@ thanks:
 - 류성두 님
 ---
 
-얼마전까지 XCTest를 유닛 테스트와 통합 테스트(Xcode의 UI Testing)로만 구분하고 있었는데, 유닛 테스트 또한 런타임 작동 방식에 따라 application test와 library test로 나눌 수 있다는걸 알게 됐다. 둘의 차이점과 쓰임새를 정리했다.
+얼마전까지 XCTest를 유닛 테스트와 통합 테스트로만 구분하고 있었는데, 유닛 테스트 또한 런타임 작동 방식에 따라 application test와 library test로 나눌 수 있다는걸 알게 됐다. 둘의 차이점과 쓰임새를 정리했다.
 
 ## Application Test vs Library Test
 
 <img src="/assets/posts/application-library-test.png" />
 
-유닛 테스트 타켓의 Host Application 항목에서 앱 executable을 선택하면 application test가 되고 None을 선택하면 library test가 된다. Xcode에서 유닛 테스트 타겟을 만들 때 초기 설정을 변경하지 않았다면 기본값으로 Host Application이 선택된다. 그래서 지금까지는 별 생각없이 대부분의 테스트를 Application test로 짜고 있었다. 그러나 목적에 따라 이 둘을 구분해서 사용하면 분명한 이점이 있다.
+유닛 테스트 타켓의 Host Application 항목에서 앱 executable을 선택하면 application test가 되고 None을 선택하면 library test가 된다. Xcode에서 유닛 테스트 타겟을 만들 때 초기 설정을 변경하지 않았다면 기본값으로 Host Application이 선택된다. 그래서 지금까지는 별 생각없이 대부분의 테스트를 application test로 짜고 있었다. 그러나 목적에 따라 이 둘을 구분해서 사용하면 분명한 이점이 있다.
 
 ## Application Test
 
@@ -28,7 +28,7 @@ iOS 앱과 관련된 부분(UIViewController, UIWindow, UIView 등)을 검사하
 
 Application test의 단점은 아래와 같다.
 - [앱 라이프사이클](https://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle)이 돌게 되는데 이때 타이밍 이슈가 발생해 테스트 결과가 달라질 수 있다.
-- 시뮬레이터는 한번에 하나의 호스트 앱만 실행할 수 있기 때문에 application test 타겟은 하나의 시뮬레이터에서 병렬(parallel) 테스팅이 작동하지 않는다. 
+- 시뮬레이터는 동시에 하나의 호스트 앱만 실행할 수 있기 때문에 application test 타겟은 하나의 시뮬레이터에서 병렬(parallel) 테스팅이 작동하지 않는다. 
 
 ## Library Test
 
@@ -43,7 +43,7 @@ Library test는 앱과 상관없는 로직을 테스트하기 위해 사용한�
 
 ## Library Test를 쓰면 좋은 이유
 
-Application test는 호스트 앱의 프로세스에 주입되기 때문에 시뮬레이터에 앱이 설치되고 실행(app launch)까지 된 후에야 테스트 코드가 돌기 시작한다. 반면에 library test는 앱에 의존하지 않아서 앱 설치 없이 iOS 시뮬레이터 내 `xctest` executable(`$DEVELOPER_DIR/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest`)이나 macOS의 `xctest` 커맨드라인의 프로세스(`/usr/bin/xctest/`)에서 실행된다. 따라서 기존의 application test를 library test로 전환하면 `전환한 타겟 갯수 * 앱 설치 및 실행 소요시간` 만큼의 테스트 시간을 줄일 수 있다. 또한 호스트 앱을 기다릴 필요 없어 병렬로 빠르게 테스팅 할 수 있다.
+Application test는 호스트 앱의 프로세스에 주입되기 때문에 시뮬레이터에 앱이 설치되고 실행(app launch)까지 된 후에야 테스트 코드가 돌기 시작한다. 반면에 library test는 앱에 의존하지 않아서 앱 설치 없이 iOS 시뮬레이터 내 `xctest` executable(`$DEVELOPER_DIR/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest`)이나 macOS의 `xctest` 커맨드라인의 프로세스(`/usr/bin/xctest/`)에서 실행된다. 따라서 application test를 library test로 전환하면 `전환한 타겟 갯수 * 앱 설치 및 실행 소요시간` 만큼의 테스트 시간을 줄일 수 있다. 또한 호스트 앱을 기다릴 필요 없어 병렬로 빠르게 테스팅 할 수 있다.
 
 ## Library Test로 전환하는 방법
 
