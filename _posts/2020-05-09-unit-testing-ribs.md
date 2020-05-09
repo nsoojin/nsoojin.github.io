@@ -11,13 +11,13 @@ published: true
 meta: {}
 ---
 
-[RIBs](https://github.com/uber/RIBs)는 우버에서 개발하고 오픈소스로 공개한 모바일 아키텍처 프레임워크다. RIBs는 독립적인 기능을 담당하는 RIB 덩어리(이하 Riblet)를 트리 구조로 만들어 앱의 상태와 로직을 관리한다. 하나의 Riblet에 포함되는 객체와 각 역할은 아래와 같다.
+[RIBs](https://github.com/uber/RIBs)는 우버에서 개발하고 오픈소스로 공개한 모바일 아키텍처 프레임워크다. RIBs는 독립적인 기능을 담당하는 RIB 덩어리(이하 Riblet)를 트리 구조로 만들어 앱의 상태와 로직을 관리한다. 하나의 Riblet 단위를 구성하는 객체와 역할은 아래와 같다.
 
 <img src="/assets/posts/uber-ribs-diagram.png" />
 
 ## RIBs와 객체지향 프로그래밍
 
-위 도식처럼 RIBs 객체는 각자 역할이 뚜렷하게 나뉘어 있다(`Single Responsibility`). 그리고 화살표로 표시돼 있는 각 객체의 input와 output은 프로토콜로 추상화되어 각각 독립적으로 테스트하기가 좋다(`Dependency Inversion`). 또한 RIBs는 부모와 자식 Riblet의 로직이 트리 구조로 분리(decoupling)되어 있어서 parent Riblet의 코드 수정을 최소화하면서도 복잡한 child Riblet을 새로 만들거나 기능 추가를 할 수 있다(`Open-Closed Principle`). 두 달 정도 프로젝트를 해본 바 느낀점은 RIBs 아키텍처를 쓰면 SOLID에서 비중이 크고 꾸준히 따르기 어려운 SRP, OCP, DIP 세 가지 원칙을 어느 정도는 강제적으로 지키게 된다. (물론 어기기도 쉽다. 어떤 아키텍처를 쓰던 내가 짜기 나름이다. 단순히 아키텍처를 도입하는 것만으로 내 코드가 좋아지진 않는다.)
+위 도식처럼 RIBs 객체는 각자 역할이 뚜렷하게 나뉘어 있다(`Single Responsibility`). 그리고 화살표로 표시돼 있는 각 객체의 input와 output은 프로토콜로 추상화가 돼있어서 따로 떼어내 독립적으로 테스트하기가 좋다(`Dependency Inversion`). 또한 RIBs는 부모와 자식 Riblet의 로직이 트리 구조로 분리(decoupling) 돼있어서 부모 Riblet의 코드 수정을 최소화하면서도 복잡한 자식 Riblet을 새로 만들거나 기능을 수정할 수 있다(`Open-Closed Principle`). 두 달 정도 프로젝트를 해본 바 느낀점은 RIBs 아키텍처를 쓰면 SOLID에서 비중이 크고 꾸준히 따르기 어려운 SRP, OCP, DIP 세 가지 원칙을 어느 정도는 강제적으로 지키게 된다. (물론 어기기도 쉽다. 어떤 아키텍처를 쓰던 내가 코드를 짜기 나름이고 단순히 아키텍처를 도입하는 것만으로 내 코드가 좋아지진 않는다.)
 
 ## 무엇을 테스트해야할까
 
@@ -25,7 +25,7 @@ RIBs 아키텍처는 극강의 testability를 지니고 있다. 역할을 잘게
 
 ## Router Test: 뷰 라우팅을 제대로 하는지
 
-Router는 비즈니스 로직에 맞춰 자식 Riblet을 뗐다(`attachChild`) 붙였다(`detachChild`) 하는 동작을 검사해야 한다. Router 클래스의 설명에 보면 *'라우터는 자식 라우터를 만들때는 꼭 helper builder를 써야 한다.'*는 말이 있다. 자식 Riblet을 생성할 때 xxBuilder 클래스를 직접 쓰지말고 xxBuildable로 추상화하여 주입 받아야 한다는 말이다. 이렇게 해야 테스트 환경에서 xxBuildableMock을 주입해서 라우터가 자식 Riblet을 생성하는지 검사할 수 있다. Router는 interactor의 호출에 의해 라우팅을 해주는 역할이기 때문에 이것 외에 다른 로직은 없는게 바람직하다.
+Router는 비즈니스 로직에 맞춰 자식 Riblet을 뗐다(`attachChild`) 붙였다(`detachChild`) 하는 동작을 검사해야 한다. Router 클래스의 설명에 보면 *'라우터가 자식 라우터를 만들때는 꼭 helper builder를 써야 한다.'*([링크](https://github.com/uber/RIBs/blob/master/ios/RIBs/Classes/Router.swift#L75))는 주석이 있다. 자식 Riblet을 생성할 때 xxBuilder 클래스를 직접 쓰지말고 xxBuildable로 추상화하여 주입 받아야 한다는 말이다. 이렇게 해야 테스트 환경에서 xxBuildableMock을 주입해서 라우터가 자식 Riblet을 생성하는지 검사할 수 있다. Router는 interactor의 호출에 의해 라우팅을 해주는 역할이기 때문에 이것 외에 다른 로직은 없는게 바람직하다.
 
 ## Interactor Test: 각종 비즈니스 로직
 
@@ -33,7 +33,7 @@ Interactor는 앱의 비즈니스 로직을 담당하는 곳이라 다른 클래
 
 - Interactor는 view로부터 사용자 입력을 전달받는다. 사용자 입력에 따라 적절한 작업이 실행됐는지 확인하기 위해서 interactor의 view listener 관련 메서드를 호출해준 뒤 필요한 작업이 실행됐는지 Mock 객체로 확인한다.
 
-- Interactor는 자식 interactor에 정보를 전달하기 위해서 reactive 방식을 사용한다. 이렇게 하면 부모와 자식 interactor가 직접적인 의존 관계(direct coupling)에서 벗어날 수 있다. Stream은 어떻게 구현하던 상관은 없는데 보통은 Rx 라이브러리를 쓴다. 참고로 RIBs 아키텍처도 Rx를 쓰고 있어서 이걸 쓰면 굳이 또다른 외부 라이브러리를 추가할 필요 없다. 테스트 환경에서는 스트림을 모킹하여 interactor가 제대로 값을 흘려보내는지 확인한다. 반대로 부모 interactor한테서 주입 받은 스트림에 subscribe해서 작업을 처리해야하는 경우라면 mock 스트림을 주입한 뒤 테스트 케이스에서 값을 흘려보면서 데이터에 맞게 잘 처리하고 있는지 테스트한다.
+- Interactor는 자식 interactor에 정보를 전달하기 위해서 reactive 방식을 사용한다. 이렇게 하면 부모와 자식 interactor가 직접적인 의존 관계(direct coupling)에서 벗어날 수 있다. Stream은 어떻게 구현하든 상관은 없는데 보통은 Rx 라이브러리를 쓴다. 참고로 RIBs 아키텍처도 Rx를 쓰고 있어서 이걸 쓰면 굳이 또다른 외부 라이브러리를 추가할 필요 없다. 테스트 환경에서는 스트림을 모킹하여 interactor가 제대로 값을 흘려보내는지 확인한다. 반대로 부모 interactor한테서 주입 받은 스트림에 subscribe해서 작업을 처리해야하는 경우라면 mock 스트림을 주입한 뒤 테스트 케이스에서 값을 흘려보면서 데이터에 맞게 잘 처리하고 있는지 테스트한다.
 
 - Interactor는 router와 presenter(혹은 view)를 자주 호출한다. 뷰를 뗐다 붙였다 하기도 하고 UI를 업데이트하기도 한다. 그래서 router와 presenter 메서드가 제대로 불리는지 확인한다. 이 경우에는 단순히 불렸는지 안불렸는지 확인하는 것보다는 불린 횟수가 정확한지 테스트하는게 좋다. UI 업데이트를 불필요하게 여러번 하지 않는지, 중복으로 뷰 라우팅을 하지는 않는지 확인한다.
 
