@@ -10,21 +10,21 @@ draft: true
 published: true
 ---
 
-[RIBs](https://github.com/uber/RIBs)는 우버에서 개발하고 오픈소스로 공개한 모바일 아키텍처 프레임워크다. RIBs 프레임워크는 앱의 복잡한 상태 관리와 비즈니스 로직을 RIBs 덩어리(이하 Riblet)로 쪼개고 나눈 후 [트리 구조](https://github.com/uber/RIBs/wiki#state-management)로 연결시킨다. 하나의 Riblet 단위를 구성하는 객체와 각각의 역할은 아래와 같다.
+[RIBs](https://github.com/uber/RIBs)는 우버에서 개발하고 오픈소스로 공개한 모바일 아키텍처 프레임워크다. RIBs 프레임워크는 앱의 복잡한 상태 관리와 비즈니스 로직을 RIBs 덩어리(이하 Riblet)로 분리한 뒤 [트리 구조](https://github.com/uber/RIBs/wiki#state-management)로 연결시킨다. 하나의 Riblet 단위를 구성하는 객체와 각각의 역할은 아래와 같다.
 
 <img src="/assets/posts/uber-ribs-diagram.png" />
 
 ## RIBs와 객체지향 프로그래밍
 
-위 도표처럼 각 RIBs 요소는 역할이 뚜렷하게 나눠져 있다(`Single Responsibility`). 그리고 화살표로 표시돼 있는 각 객체의 input와 output은 프로토콜로 추상화 돼있어서(`Dependency Inversion`) 따로 떼어낸 후 mocking 기법을 통해 독립적으로 테스트하기 좋다. 또한 부모와 자식 Riblet은 트리 구조로 분리(decoupling) 돼있어서 부모 Riblet의 코드 수정을 최소화하면서도 복잡한 자식 Riblet을 새로 만들거나 수정할 수 있다(`Open-Closed Principle`). 두 달 정도 프로젝트를 해본 바 느낀점은 RIBs 아키텍처를 쓰면 SOLID에서 비중이 크고 꾸준히 지키기 어려운 SRP, OCP, DIP 세 가지 원칙을 반강제적으로 지키게 된다. *물론 어기기도 쉽다. 어떤 아키텍처를 쓰든 개발자가 코드를 짜기 나름이고 단지 아키텍처를 도입하는 것만으로 내 코드가 좋아지진 않는다.*
+위 도표처럼 각 RIBs 객체는 역할이 뚜렷하게 나눠져 있다(`Single Responsibility`). 그리고 화살표로 표시돼 있는 각 객체의 input와 output은 프로토콜로 추상화 돼있어서(`Dependency Inversion`) 따로 떼어낸 후 mocking 기법을 통해 독립적으로 테스트하기 좋다. 또한 부모와 자식 Riblet은 트리 구조로 분리(decoupling) 돼있어서 부모 Riblet의 코드 수정을 최소화하면서도 복잡한 자식 Riblet을 새로 만들거나 수정할 수 있다(`Open-Closed Principle`). 두 달 정도 프로젝트를 해본 바 느낀점은 RIBs 아키텍처를 쓰면 SOLID에서 비중이 크고 꾸준히 지키기 어려운 SRP, OCP, DIP 세 가지 원칙을 반강제적으로 지키게 된다. *물론 어기기도 쉽다. 어떤 아키텍처를 쓰든 개발자가 코드를 짜기 나름이고 단지 아키텍처를 도입하는 것만으로 내 코드가 좋아지진 않는다.*
 
 ## 무엇을 테스트 해야할까
 
-RIBs 아키텍처를 구성하는 객체들은 단위 테스트하기 정말 용이하다. 역할이 명확하게 나뉘어있고 부모와 자식 Riblet이 약하게 커플링된 만큼, 높은 커버리지를 달성할 수 있다. Riblet당 최소 4+ 개의 테스트 클래스가 필요한데 [Xcode의 코드생성 템플릿](https://github.com/uber/RIBs/tree/master/ios/tooling)을 쓰면 매번 만들기 번거로운 유닛 테스트 클래스와 보일러플레이트 코드까지 자동으로 생성해준다. 그런데 처음 프로젝트를 할때는 이 많은 테스트 클래스에 뭘 채워 넣어야하는지 몰라 막막했다. 하지만 코드 리뷰도 받고 기존 코드도 살펴보면서 규칙을 발견했고 이를 통해 각 클래스의 역할과 목적에 따라 어떻게 테스트 해야하는지 터득했다.
+RIBs 아키텍처를 구성하는 객체들은 단위 테스트하기 정말 용이하다. 역할이 명확하고 잘게 나뉘어있고 부모와 자식 Riblet이 약하게 커플링된 만큼, 높은 커버리지를 달성할 수 있다. Riblet당 최소 4+ 개의 테스트 클래스가 필요한데 [Xcode의 코드생성 템플릿](https://github.com/uber/RIBs/tree/master/ios/tooling)을 쓰면 매번 만들기 번거로운 유닛 테스트 클래스와 보일러플레이트 코드까지 자동으로 생성해준다. 그런데 처음 프로젝트를 할때는 이 많은 테스트 클래스에 뭘 채워 넣어야하는지 몰라 막막했다. 하지만 코드 리뷰도 받고 기존 코드도 살펴보면서 규칙을 발견했고 이를 통해 각 클래스의 역할과 목적에 따라 어떤 방식으로 테스트 해야하는지 터득했다.
 
 ## Router Test: 자식 Riblet 라우팅
 
-Router의 테스트는 비즈니스 로직에 맞춰 자식 Riblet을 뗐다(`attachChild`) 붙였다(`detachChild`) 하는 동작을 검사해야 한다. Router 객체 설명에 보면 *'라우터가 자식 라우터를 만들때는 꼭 helper builder를 써야 한다.'*([링크](https://github.com/uber/RIBs/blob/master/ios/RIBs/Classes/Router.swift#L75))는 주석이 있다. 자식 Riblet을 생성할 때 xxBuilder 클래스를 직접 쓰지말고 xxBuildable로 추상화하여 주입 받아야 한다는 말이다. 이렇게 해야 테스트 환경에서 xxBuildableMock을 주입해서 라우터가 자식 Riblet을 제대로 생성했는지 검사할 수 있다. Router는 interactor의 호출에 의해 라우팅을 해주는 역할이기 때문에 이것 외에 다른 로직은 없는게 바람직하다.
+Router의 테스트는 비즈니스 로직에 맞춰 자식 Riblet을 뗐다(`attachChild`) 붙였다(`detachChild`) 하는 동작을 검사해야 한다. Router 객체 설명에 보면 *'라우터가 자식 라우터를 만들때는 꼭 helper builder를 써야 한다.'*([링크](https://github.com/uber/RIBs/blob/master/ios/RIBs/Classes/Router.swift#L75))는 주석이 있다. 자식 Riblet을 생성할 때 xxBuilder 클래스를 직접 쓰지말고 xxBuildable로 추상화하여 주입 받아야 한다는 말이다. 이렇게 해야 테스트 환경에서 xxBuildableMock을 주입해서 라우터가 자식 Riblet을 제대로 생성했는지 검사할 수 있다. Router는 interactor의 요청에 따라 라우팅을 대신해주는 역할이기 때문에 이것 외에 다른 로직은 없는게 바람직하다.
 
 ## Interactor Test: 각종 비즈니스 로직
 
