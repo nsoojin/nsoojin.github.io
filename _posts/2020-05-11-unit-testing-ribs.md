@@ -6,8 +6,8 @@ tags:
 - uber/ribs
 - unit tests
 type: post
-draft: true
 published: true
+meta: {}
 ---
 
 [RIBs](https://github.com/uber/RIBs)는 우버에서 개발하고 오픈소스로 공개한 모바일 아키텍처 프레임워크다. RIBs 프레임워크는 앱의 복잡한 상태 관리와 비즈니스 로직을 RIBs 덩어리(이하 Riblet)로 분리한 뒤 [트리 구조](https://github.com/uber/RIBs/wiki#state-management)로 연결시킨다. 하나의 Riblet 단위를 구성하는 객체와 각각의 역할은 아래와 같다.
