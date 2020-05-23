@@ -6,11 +6,11 @@ tags:
 - scalability
 - mobile dev
 type: post
-draft: true
+published: true
 meta: {}
 ---
 
-> [페북 포스팅](https://www.facebook.com/100002633450536/posts/3245101652254251/)
+> [페북 포스팅](https://www.facebook.com/100002633450536/posts/3245101652254251/)에서 복사해옴.
 
 모바일 개발자에게 scalability란 뭘까.. 란 궁금증을 오래전부터 지니고 있었습니다. 커리어를 라인에서 시작했는데, 글로벌 수천만의 유저를 감당하는 경험을 해보고 싶었거든요. 그러나 알고보니 수 천만 명의 트래픽은 서버 개발자가 감당할 일이었던거죠. 약간 실망했어요.
 
