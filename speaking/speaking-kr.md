@@ -13,7 +13,12 @@ permalink: /speaking-kr
 ---
 # 다음
 
-일정이 없습니다 ☺️
+<strong class="talk-title">Swift API Design Guidelines Essentials</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[iOS Remote Conf](https://iosremoteconf.com) / 2020년 7월
+
+<!-- 일정이 없습니다 ☺️ -->
 
 # 지난 발표
 
