@@ -3,10 +3,10 @@ layout: post
 title: "개인과 팀이 성장하는 모바일 개발 환경"
 categories: []
 tags:
+- mobile platform
 - growth
 - mobile ci/cd
 type: post
-draft: true
 published: true
 meta: {}
 ---
