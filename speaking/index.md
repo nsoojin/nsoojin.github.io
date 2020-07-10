@@ -16,7 +16,7 @@ permalink: /speaking
 <strong class="talk-title">Swift API Design Guidelines Essentials</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
-[iOS Remote Conf](https://iosremoteconf.com) / Jul 2020
+[iOS Remote Conf](https://iosremoteconf.com) / Sep 2020
 
 <!-- No plans yet ☺️ -->
 
