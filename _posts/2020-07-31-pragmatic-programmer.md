@@ -8,7 +8,6 @@ tags:
 - Krzysztof Zabłocki
 type: post
 published: true
-draft: true
 meta: {}
 ---
 
