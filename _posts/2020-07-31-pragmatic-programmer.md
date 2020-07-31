@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-> iOS 개발자라면 한번은 들어봤거나 써봤을 오픈소스 툴 [Sourcery](https://github.com/krzysztofzablocki/Sourcery)를 만든 Krzysztof Zabłocki와 팟캐스트 녹음을 했는데 작년 엉클밥을 봤을 때와 비슷한 큰 자극와 영감을 얻었습니다. Krzysztof는 좋은 앱 아키텍처와 개발자 툴을 만들어서 개발자 경험을 개선하는 것에 목표를 두고 여러 툴을 만들면서 현재 뉴욕타임스에서 iOS 팀을 리딩하고 있는 개발자입니다.
+> iOS 개발자라면 한번은 들어봤거나 써봤을 오픈소스 툴 [Sourcery](https://github.com/krzysztofzablocki/Sourcery)를 만든 [Krzysztof Zabłocki](https://twitter.com/merowing_)와 팟캐스트 녹음을 했는데 작년 엉클밥을 봤을 때와 비슷한 큰 자극와 영감을 얻었습니다. Krzysztof는 좋은 앱 아키텍처와 개발자 툴을 만들어서 개발자 경험을 개선하는 것에 목표를 두고 여러 툴을 만들면서 현재 뉴욕타임스에서 iOS 팀을 리딩하고 있는 개발자입니다.
 
 ## 잘못된 선택보다 올바른 선택을 하는게 더 쉬운 구조가 좋은 아키텍처다.
 
