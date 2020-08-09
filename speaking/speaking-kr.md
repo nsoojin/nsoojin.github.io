@@ -13,6 +13,11 @@ permalink: /speaking-kr
 ---
 # 다음
 
+<strong class="talk-title">패널토크 : 외국의 개발자 생활은 어떻습니까?</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[let us: Go!](https://let-us-go-2020-summer.vercel.app) / 2020년 8월
+
 <strong class="talk-title">Swift API Design Guidelines Essentials</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
 <br>
