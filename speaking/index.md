@@ -14,7 +14,7 @@ permalink: /speaking
 # Upcoming
 
 <strong class="talk-title">Panels: Life as SW Engineer abroad</strong>
-<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
 [let us: Go!](https://let-us-go-2020-summer.vercel.app) / Aug 2020
 
