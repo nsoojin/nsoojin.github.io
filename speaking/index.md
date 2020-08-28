@@ -13,14 +13,14 @@ permalink: /speaking
 ---
 # Upcoming
 
+No plans yet ☺️
+
+# Past Talks 
+
 <strong class="talk-title">Life as SW Engineer abroad (Panel)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[let us: Go!](https://let-us-go-2020-summer.vercel.app) / Aug 2020
-
-<!-- No plans yet ☺️ -->
-
-# Past Talks 
+[let us: Go!](https://let-us-go-2020-summer.vercel.app) / Aug 2020 ([video](https://youtu.be/i0FMti8pOsk))
 
 <strong class="talk-title">Building Augmented Reality Apps using AI (Podcast)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>

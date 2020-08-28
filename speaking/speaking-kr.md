@@ -13,14 +13,14 @@ permalink: /speaking-kr
 ---
 # 다음
 
+일정이 없습니다 ☺️
+
+# 지난 발표
+
 <strong class="talk-title">패널토크 : 외국의 개발자 생활은 어떻습니까?</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
-[let us: Go!](https://let-us-go-2020-summer.vercel.app) / 2020년 8월
-
-<!-- 일정이 없습니다 ☺️ -->
-
-# 지난 발표
+[let us: Go!](https://let-us-go-2020-summer.vercel.app) / 2020년 8월 ([영상](https://youtu.be/i0FMti8pOsk))
 
 <strong class="talk-title">Building Augmented Reality Apps using AI (팟캐스트)</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
