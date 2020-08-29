@@ -17,9 +17,9 @@ permalink: /about
 <div id="rightCol">
   <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
 
-  <p><b>Grab</b></p>
+  <p><b>Grab, GrabPay</b></p>
 
-  <p>I work on improving mobile payment experience for users on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>.</p>
+  <p>I work on improving GrabPay's cashless payment experience on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>.</p>
 
   <p><b>Side Projects</b></p>
 

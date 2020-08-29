@@ -15,9 +15,9 @@ permalink: /about-kr
 <h1 style="text-align: center; margin-bottom: 15px; margin-top: -10px">About</h1>
 
 <div id="rightCol">
-  <p><b>Grab</b></p>
+  <p><b>Grab, GrabPay</b></p>
 
-  <p>동남아시아의 <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'슈퍼앱'</a>을 만들고 있는 Grab에서 iOS 개발을 하고 있습니다.</p>
+  <p>동남아시아의 <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'슈퍼앱'</a>을 만들고 있는 Grab에서 GrabPay 모바일 결제 서비스를 개발하고 있습니다.</p>
 
   <p><b>사이드 프로젝트</b></p>
 
