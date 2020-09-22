@@ -9,7 +9,6 @@ tags:
 - collaboration
 type: post
 published: true
-draft: true
 meta: {}
 ---
 
