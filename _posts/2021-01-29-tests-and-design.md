@@ -10,10 +10,9 @@ published: true
 meta: {}
 ---
 
-> 아래 글을 읽고 쓴 글입니다.
-> [TDD는 설계 방법론이 아니다](https://gyuwon.github.io/blog/2019/03/03/tdd-is-not-a-design-methodology.html)
+> [TDD는 설계 방법론이 아니다](https://gyuwon.github.io/blog/2019/03/03/tdd-is-not-a-design-methodology.html) 글을 읽고 쓴 글입니다.
 
-TDD는 아니지만 1년 동안 진하게 유닛 테스트 추가하고 레거시 코드를 테스트 가능하게 리팩토링 하면서 느낀 점과 유사하다. 요약하자면
+TDD는 안해봤지만 1년 동안 진하게 유닛 테스트 추가하고 레거시 코드를 테스트 가능하게 리팩토링 하면서 느낀 점과 유사하다. 요약하자면
 
 1. 테스트 가능한 코드는 강한 결합을 회피하고 의존성 역전 원칙만큼은 지키게 해준다.
 2. 단일 책임 원칙과 인터페이스 분리 원칙은 알아서 챙겨야 한다.
