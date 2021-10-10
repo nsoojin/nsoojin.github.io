@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[강의] 슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축"
+title: "슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축"
 categories: []
 tags:
 - app architecture
@@ -15,7 +15,7 @@ meta: {}
 <br><br>
 <img src="/assets/posts/fastcampus-0.png" />
 
-## 모바일 개발자에게 **확장성(scalability)**이란,
+## 모바일 개발자에게 **확장성(scalability)**이란
 
 모바일 팀과 앱의 규모가 계속 커져도 사용자 경험과 개발자 경험 모두를 안정적으로 유지하는 것이라고 생각합니다.
 
@@ -26,7 +26,7 @@ meta: {}
 
 <img src="/assets/posts/fastcampus-1.png" />
 
-## 강의 내용 요약
+## 강의 내용
 
 ### 1부. 코드 레벨 아키텍처: 재사용 가능한 코드를 만드는 스킬
 
