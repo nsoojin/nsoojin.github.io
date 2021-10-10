@@ -12,14 +12,14 @@ lang-ref: about
 permalink: /about-kr
 ---
 
-<h1 style="text-align: center; margin-bottom: 15px; margin-top: -10px">About</h1>
-
 <div id="rightCol">
-  <p><b>Grab</b></p>
+  <img src="/assets/posts/profile-main.png" />
 
-  <p>동남아시아의 <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'슈퍼앱'</a>을 만들고 있는 Grab에서 GrabPay 모바일 결제 서비스를 개발하고 있습니다.</p>
+  <p></p>
 
-  <p><b>사이드 프로젝트</b></p>
+  <p><b>Senior iOS Engineer@Momenti</b></p>
+
+  <p><b>앱 개발</b></p>
 
   <p> 첫 출시한 <a href="https://apps.apple.com/kr/app/보안카드-위젯/id949362849" target="_blank">보안카드 위젯</a>이라는 앱으로 앱스토어 1위를 하였고 2015, 2016, 2017년 올해를 빛낸 유료 앱으로 선정되었습니다.</p>
 
@@ -31,7 +31,7 @@ permalink: /about-kr
 
   <p><b>예전 업무 및 프로젝트</b></p>
 
-  <p>네이버웹툰, 네이버랩스, 라인 라이트, 오픈소스 프로젝트, 유데미 iOS 강좌 등</p>
+  <p>그랩(Singapore), 네이버웹툰, 네이버랩스, 라인 라이트, 오픈소스 프로젝트, 유데미 iOS 강좌 등</p>
 </div>
 
 <style type="text/css">
@@ -40,6 +40,12 @@ permalink: /about-kr
     margin-right: 30px;
     width: 100%;
     text-align: center;
+  }
+  #rightCol img {
+    height: 200px;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
   }
   @media screen and (min-width: 600px) {
     #leftCol {

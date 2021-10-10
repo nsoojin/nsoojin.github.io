@@ -13,7 +13,12 @@ permalink: /speaking
 ---
 # Upcoming
 
-No plans yet ☺️
+<strong class="talk-title">Establishing Highly Scalable App Architecture for Super App</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[FastCampus](https://fastcampus.co.kr/dev_red_rsj?utm_source=soojin-blog&utm_medium=about&utm_campaign=soojin) / Oct 2021
+
+<!-- No plans yet ☺️ -->
 
 # Past Talks 
 

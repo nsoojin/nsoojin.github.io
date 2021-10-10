@@ -12,20 +12,21 @@ lang-ref: about
 permalink: /about
 ---
 
-<h1 style="text-align: center; margin-bottom: 15px; margin-top: -10px">About</h1>
-
 <div id="rightCol">
+
+  <img src="/assets/posts/profile-main.png" />
+
+  <p></p>
+
+  <p><b>Senior iOS Engineer@Momenti</b></p>
+
   <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
 
-  <p><b>Grab</b></p>
-
-  <p>I work on improving GrabPay's cashless payment experience on Grab <a href="https://engineering.grab.com/grab-everyday-super-app" target="_blank">'super app'</a>.</p>
-
-  <p><b>Side Projects</b></p>
+  <p><b>Apps</b></p>
 
   <p>My first iOS app <a href="https://apps.apple.com/us/app/security-cards-widget/id949362849" target="_blank">Security Cards Widget</a> was awarded App Store's Best of 2015, Best of 2016, and Best of 2017 apps. </p>
 
-  <p>Created an amusing AR app <a href="https://apps.apple.com/kr/app/notable-me/id1453810473?l=en" target="_blank">Notable Me</a> which lets you swap your face with figures on dollar bills.</p>
+  <p>Created an amusing AR app <a href="https://apps.apple.com/kr/app/notable-me/id1453810473?l=en" target="_blank">Notable Me</a> which lets you swap your face with figures on dollar bills. Featured on <a href="https://www.producthunt.com/posts/notable-me" target="_blank">ProductHunt</a></p>
 
   <p><b>Speaking</b></p>
 
@@ -33,7 +34,7 @@ permalink: /about
 
   <p><b>Other work and projects</b></p>
 
-  <p>WEBTOON, NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
+  <p>Grab Singapore, WEBTOON, NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
 </div>
 
 <style type="text/css">
@@ -42,6 +43,12 @@ permalink: /about
     margin-right: 30px;
     width: 100%;
     text-align: center;
+  }
+  #rightCol img {
+    height: 200px;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
   }
   @media screen and (min-width: 600px) {
     #leftCol {
