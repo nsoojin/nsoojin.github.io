@@ -32,7 +32,7 @@ permalink: /about
 
   <p>I spoke at various conferences and meetups in New York, Boston, and Seoul. I also co-organize a monthly iOS meetup, <a href="https://festa.io/hosts/625">Let'Swift Pangyo</a>. Check out my past talks <a href="{{ site.baseurl }}/speaking">here</a>. </p>
 
-  <p><b>Other work and projects</b></p>
+  <p><b>Previous work</b></p>
 
   <p>Grab Singapore, WEBTOON, NAVER LABS, LINE Lite, a couple of open source projects, iOS Course on Udemy, etc</p>
 </div>
