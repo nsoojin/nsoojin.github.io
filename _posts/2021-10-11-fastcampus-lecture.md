@@ -15,6 +15,21 @@ meta: {}
 <br><br>
 <img src="/assets/posts/fastcampus-0.png" />
 
+<div align = "center" >
+  <a href="https://fastcampus.co.kr/dev_red_rsj?utm_source=soojin-blog&utm_medium=post&utm_campaign=soojin" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/강의-패스트캠퍼스-red?style=flat" />
+  </a>
+  <a href="https://soojin.ro" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/iOS개발자-노수진-orange?style=flat" />
+  </a>
+  <a href="https://github.com/nsoojin/MiniSuperApp-fastcampus" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/실습 프로젝트-미니슈퍼앱-378805?style=flat" />
+  </a>
+  <a href="https://github.com/nsoojin/MiniSuperApp-fastcampus/discussions/categories/아무-질문이나-환영합니다">
+    <img src="https://img.shields.io/badge/질문-환영-ffda00?style=flat" />
+  </a>
+</div>
+
 ## 모바일 개발자에게 **확장성(scalability)**이란
 
 모바일 팀과 앱의 규모가 계속 커져도 사용자 경험과 개발자 경험 모두를 안정적으로 유지하는 것이라고 생각합니다.
