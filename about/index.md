@@ -20,7 +20,8 @@ permalink: /about
 
   <p><b>Senior iOS Engineer@Momenti</b></p>
 
-  <p>Pragmatic problem solver, strong communicator, and a fast learner.</p>
+  <p> Pragmatic problem solver </p>
+  <p> Tech Leader of international teams across New York, Singapore, and South Korea. </p>
 
   <p><b>Apps</b></p>
 

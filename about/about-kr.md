@@ -19,7 +19,9 @@ permalink: /about-kr
 
   <p><b>Senior iOS Engineer@Momenti</b></p>
 
-  <p><b>앱 개발</b></p>
+  <p> 뉴욕, 싱가폴, 한국에서 국제 개발 팀을 이끈 테크 리드 </p>
+
+  <p><b> 모바일 앱 개발</b></p>
 
   <p> 첫 출시한 <a href="https://apps.apple.com/kr/app/보안카드-위젯/id949362849" target="_blank">보안카드 위젯</a>이라는 앱으로 앱스토어 1위를 하였고 2015, 2016, 2017년 올해를 빛낸 유료 앱으로 선정되었습니다.</p>
 

@@ -13,14 +13,16 @@ permalink: /speaking-kr
 ---
 # 다음
 
-<strong class="talk-title">슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축</strong>
-<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
-<br>
-[패스트캠퍼스](https://fastcampus.co.kr/dev_red_rsj?utm_source=soojin-blog&utm_medium=about&utm_campaign=soojin) / 2021년 10월
+일정이 없습니다 ☺️
 
 <!-- 일정이 없습니다 ☺️ -->
 
 # 지난 발표
+
+<strong class="talk-title">슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[패스트캠퍼스 The RED](https://fastcampus.co.kr/dev_red_rsj?utm_source=soojin-blog&utm_medium=about&utm_campaign=soojin) / 2021년 10월
 
 <strong class="talk-title">패널토크 : 외국의 개발자 생활은 어떻습니까?</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
