@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[번역] 왜 소프트웨어 개발은 예상보다 2~3배 더 오래 걸리는가?"
+title: "[유머] 왜 소프트웨어 개발은 예상보다 2~3배 더 오래 걸리는가?"
 categories: []
 tags:
 - software development estimation
