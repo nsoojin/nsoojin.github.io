@@ -19,6 +19,17 @@ No plans yet ☺️
 
 # Past Talks 
 
+<strong class="talk-title">How Global Dev Team Collaborates</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[Riiid](https://riiid.com/) Tech Seminar / Jun 2022
+
+<strong class="talk-title">10 Years of Coding as a Mobile Developer</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[Naver Boostcamp](https://blog.naver.com/boostcamp_official/222767326421) / Jun 2022 ([video](https://www.youtube.com/watch?v=PkVuZ2-TO10), [slides](https://present.do/documents/62a8e387f6365307fc445c0e))
+
 <strong class="talk-title">Establishing Highly Scalable App Architecture for Super App</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>

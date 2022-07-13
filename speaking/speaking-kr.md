@@ -19,6 +19,17 @@ permalink: /speaking-kr
 
 # 지난 발표
 
+<strong class="talk-title">글로벌 개발팀이 협업하는 방법</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/us.png" width="16"/>
+<br>
+[뤼이드](https://riiid.com/) 사내 테크세미나 / 2022년 6월
+
+<strong class="talk-title">모바일 개발자의 10년 돌아보기</strong>
+<img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
+<br>
+[네이버 부스트캠프](https://blog.naver.com/boostcamp_official/222767326421) / 2022년 6월 ([영상](https://www.youtube.com/watch?v=PkVuZ2-TO10), [발표자료](https://present.do/documents/62a8e387f6365307fc445c0e))
+
 <strong class="talk-title">슈퍼앱 운영을 위한 확장성 높은 앱 아키텍처 구축</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
