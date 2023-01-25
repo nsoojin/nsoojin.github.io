@@ -10,7 +10,6 @@ tags:
 type: post
 published: true
 meta: {}
-medium: google-promises를-활용한-스위프트-비동기-프로그래밍과-에러-핸들링-2989075a45f1
 ---
 
 ## Background
@@ -61,11 +60,11 @@ The step that happens most frequently in a mobile app is `user interaction` 👉
 
 Are you going to show an error message like this?
 
-<img src="/assets/posts/unhelpful-error-message.jpeg" width="300" />
+<img src="/assets/posts/unhelpful-error-message-en.png" width="300" />
 
 Or are you going to show a message that is actually helpful to the user?
 
-<img src="/assets/posts/meaningful-error-message.jpeg" width="300" />
+<img src="/assets/posts/meaningful-error-message-en.png" width="300" />
 
 ### Minimizing dependencies
 

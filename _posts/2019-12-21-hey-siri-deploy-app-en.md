@@ -11,7 +11,7 @@ published: true
 meta: {}
 ---
 
-<img src="/assets/posts/siri01.png" width="400" />
+<img src="/assets/posts/siri01-en.png" width="400" />
 <p style="text-align: left;"><small>Why does Siri's response sound so sad...</small></p>
 
 ## Background
@@ -44,7 +44,7 @@ If you've installed the Jenkins plugin, the deployment begins once you enter the
 
 Even up to here, deployment became a much less cumbersome task. But ever since Siri Shortcuts has been released, it was my dream to make Siri do the deployment so I went a step further. Run the Siri Shortcuts app on your iPhone and create a shortcut. Put the distribution URL in Get Contents of URL, select POST, and enter the desired command, as you see below, and that's it.
 
-<img src="/assets/posts/siri03.png" width="400" />
+<img src="/assets/posts/siri03-en.png" width="400" />
 
 ## Thoughts
 
@@ -56,5 +56,5 @@ There are so many things you can do with a simple interface. Even if statements,
 That time, I read an article, No Code is New Programming on GeekNews, and it was about when APIs have really advanced, there will be an interface without codes at the last step, and that is the future of programming. 
 I thought Siri Shortcuts may be included in this concept. The article started with deployment automation to praise Siri Shortcuts, but I was greatly inspired by the fact that Siri Shortcuts not only runs apps on my iPhone but also allows me to combine multiple APIs(apps) without any code.
 
-<img src="/assets/posts/siri04.png" width="400" />
+<img src="/assets/posts/siri04-en.png" width="400" />
 <p style="text-align: left;"><small>"Okay.." sounded so sad so I changed the response.</small></p>

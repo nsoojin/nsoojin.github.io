@@ -10,7 +10,6 @@ published: true
 meta: {}
 ---
 
-
 > Copied from my [Facebook post](https://www.facebook.com/100002633450536/posts/3245101652254251/).
 
 I've had thoughts about what scalability means to a mobile developer for a long time.
@@ -27,14 +26,14 @@ Because users get crowded in one place at the same time, the server gets loaded,
 and the skill that can solve this load is valuable. But an app does not get loaded because there are a lot of users.
 This is because the app gets delivered to the user's doorstep, not the users getting crowded in an app.👇
 
-<img src="/assets/posts/scalability-0.jpeg" />
+<img src="/assets/posts/scalability-0-en.png" />
 
 Then where is the bottleneck that needs to be handled by mobile developers?
 Ironically, I thought the bottlenecks in a mobile app occur not because of the users, but the developers.
 I thought a point where a lot of developers push their code into an app
 that gets deployed as a single program could be seen as a bottleneck.👇
 
-<img src="/assets/posts/scalability-1.jpeg" />
+<img src="/assets/posts/scalability-1-en.png" />
 
 Just as the server's structure and codes should be different when there are 1,000 users and millions of users, an app's development environment and code structure should be completely different when there are only 3 developers and 100 developers. If not, the consequences of the bottleneck pass on to the developer and the users as well. The first app startup time increases and the app size keeps increasing. Not only that, more crashes happen, decreasing user satisfaction, or you may have to go through hotfixes the whole time due to the side effects that keep showing up. Also, build time increases, decreasing the developer's productivity and quality of life due to stress. On top of that, when 100 people are pushing on the master branch, even QA, dealing with bugs, and deploying apps aren't simple tasks. This is because someone is pushing in codes with developed features while someone's cherry-picking while fixing bugs. It doesn't have to go up to 100 people. Even if there are more than just 10 developers, problems like these start to show up. 
 
