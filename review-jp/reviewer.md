@@ -5,7 +5,7 @@ categories: []
 tags: []
 status: publish
 published: true
-permalink: /review/reviewer
+permalink: /review-jp/reviewer
 ---
 
 # コードをレビューする方法
