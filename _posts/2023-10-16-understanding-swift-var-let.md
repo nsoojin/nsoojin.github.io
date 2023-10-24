@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[기초] Swift의 변수, 상수 이해하기"
+title: "[기본기] Swift의 변수, 상수 이해하기"
 categories: []
 tags:
 - swift
