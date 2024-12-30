@@ -13,14 +13,14 @@ permalink: /speaking
 ---
 # Upcoming
 
+No plans yet ☺️
+
+# Past Talks 
+
 <strong class="talk-title">Distinguishing Fundamentals and Styles</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
 [AsyncSwift](https://smartstore.naver.com/asyncswift/products/9588768076) Lightning Talk / Dec 2023
-
-<!-- No plans yet ☺️ -->
-
-# Past Talks 
 
 <strong class="talk-title">How Global Dev Team Collaborates</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>

@@ -13,14 +13,14 @@ permalink: /speaking-kr
 ---
 # 다음
 
+일정이 없습니다 ☺️
+
+# 지난 발표
+
 <strong class="talk-title">원칙과 취향 구별하기</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
 <br>
 [AsyncSwift](https://smartstore.naver.com/asyncswift/products/9588768076) 송년회 라이트닝 토크 / 2023년 12월
-
-<!-- 일정이 없습니다 ☺️ -->
-
-# 지난 발표
 
 <strong class="talk-title">글로벌 개발팀이 협업하는 방법</strong>
 <img style="margin-left: 6px; margin-bottom: 3px" src="/assets/language-icons/kr.png" width="16"/>
